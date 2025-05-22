@@ -1,0 +1,195 @@
+.p_service1 {
+  position: relative;
+  box-shadow: inset 0px 0px 20px rgba(160, 157, 157, 0.796);
+  border-radius: 50px;
+  width: 30vw;
+  padding: 20px;
+  text-align: center;
+  left: 10vw;
+  margin: 25px 0px;
+}
+
+.p_service2 {
+  position: relative;
+  box-shadow: inset 0px 0px 20px rgba(160, 157, 157, 0.796);
+  border-radius: 50px;
+  width: 30vw;
+  padding: 20px;
+  text-align: center;
+  left: 50vw;
+  margin: 25px 0px;
+}
+
+.main_service {
+  text-align: center;
+}
+
+.serv_content {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid aliceblue;
+  border-bottom: 2px solid aliceblue;
+  width: 90vw;
+  margin-left: 5vw;
+  padding: 100px 0px;
+  margin-bottom: 100px;
+  cursor: default;
+}
+
+.button {
+  box-shadow: 0px 0px 10px rgba(218, 217, 219, 0.395);
+  background-color: rgba(121, 31, 64, 0.961);
+  height: 50px;
+  color: white;
+  font-family: GothamPro-Black;
+  font-size: 1.5em;
+  padding: 5px 60px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 125px;
+  white-space: nowrap;
+  margin-left: 50px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+  cursor: pointer;
+}
+
+.sched a {
+  text-decoration: none;
+}
+
+.sched {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: default;
+}
+.service_text_title {
+  margin-bottom: 35px;
+}
+.service_list {
+  list-style: disc;
+  margin-bottom: 35px;
+}
+.service_main_title {
+  color: white;
+  font-size: 4em;
+}
+
+.service_text_content {
+  width: 40vw;
+  margin-left: 5vw;
+  margin-bottom: 50px;
+  font-size: 18px;
+  word-spacing: 0.5px;
+}
+.wa_service_block,
+.or_service_block {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+}
+.areas_service_block_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.service_text_container {
+  line-height: 23px;
+}
+
+.cities_content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px 20px;
+}
+.cities_content a {
+  font-size: 1.15em;
+  padding: 0 10px;
+  text-decoration: none;
+  font-weight: 1000;
+  color: white;
+}
+.cities_content a:hover {
+  text-decoration: underline;
+}
+.hero_section_block {
+  width: 42.5vw;
+  height: 425px;
+  background: radial-gradient(circle at 80% 200%, #cb000a 20%, #091f57 80%);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  padding: 20px 15px;
+  color: white;
+}
+.hero_title_block {
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 80px 0;
+}
+.service_picture {
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgba(30, 32, 93, 0.951);
+  border-radius: 50%;
+}
+@media screen and (max-width: 1390px) {
+  .sched_body {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .p_service1 {
+    background-color: rgba(30, 32, 93, 0.951);
+    position: relative;
+    border-radius: 50px;
+    width: 75vw;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    left: 5vw;
+    margin: 25px 0px;
+  }
+
+  .p_service2 {
+    background-color: rgba(94, 18, 43, 0.961);
+    position: relative;
+    border-radius: 50px;
+    width: 75vw;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    left: 5vw;
+    margin: 25px 0px;
+  }
+
+  .button {
+    padding: 5px 20px;
+    width: 140px;
+    margin-left: 0px;
+    font-size: 18px;
+  }
+}
