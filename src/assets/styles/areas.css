@@ -1,4 +1,5 @@
 .city-list {
+  justify-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
@@ -9,6 +10,7 @@
   overflow: hidden;
   border-radius: 8px;
   transition: transform 0.3s ease;
+  height: 200px;
 }
 
 .city-card:hover {
@@ -18,6 +20,8 @@
 .city-image {
   border-radius: 8px;
   object-fit: cover;
+  height: 200px;
+  width: 300px;
 }
 
 .overlay {

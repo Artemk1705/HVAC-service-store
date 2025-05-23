@@ -13,7 +13,10 @@ export function AreasService() {
           <h2 className="text-yellow-400 uppercase text-2xl">Washinghton</h2>
           <div className="cities_content">
             {washingtonAreas.map((area) => (
-              <Link href={`/areas/${area.slut}`} key={area.slug}>
+              <Link
+                href={`/service-zone/washington/${area.slug}`}
+                key={area.slug}
+              >
                 {area.name}
               </Link>
             ))}
@@ -23,7 +26,7 @@ export function AreasService() {
           <h2 className="text-yellow-400 uppercase text-2xl">Oregon</h2>
           <div className="cities_content">
             {oregonAreas.map((area) => (
-              <Link href={`/areas/${area.slug}`} key={area.slug}>
+              <Link href={`/service-zone/oregon/${area.slug}`} key={area.slug}>
                 {area.name}
               </Link>
             ))}

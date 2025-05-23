@@ -4,9 +4,9 @@ import { notFound } from "next/navigation";
 
 import { HeroSection } from "@/components/servicesPagesContent/hero-section";
 import { SectionList } from "@/components/servicesPagesContent/list-section";
-import { ReviewBlock } from "@/components/mainPageContent/rewies";
+import { ReviewBlock } from "@/components/ui/rewies";
 import { FormContact } from "@/components/ui/contact-form";
-import { AreasService } from "@/components/servicesPagesContent/areas-block";
+import { AreasService } from "@/components/ui/areas-block";
 import { MainServices } from "@/components/ui/main-services";
 import { ConclusionSection } from "@/components/ui/conclusion-section";
 

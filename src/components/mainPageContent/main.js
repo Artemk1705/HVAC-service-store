@@ -10,7 +10,7 @@ import { AboutSection } from "./about-section";
 import { BenefitsSection } from "./benefits-cetion";
 
 const ReviewBlock = dynamic(
-  () => import("./rewies").then((mod) => mod.ReviewBlock),
+  () => import("../ui/rewies").then((mod) => mod.ReviewBlock),
   { ssr: false }
 );
 const FormDis = dynamic(() => import("./form-discount"), { ssr: false });
@@ -32,11 +32,7 @@ export function Main() {
         <AboutSection />
         <MainServices />
         <BenefitsSection />
-        <div className="block_reviews">
-          <Suspense fallback={<div>Loading...</div>}>
-            <ReviewBlock />
-          </Suspense>
-        </div>
+        <ReviewBlock />
         <Fincaning />
         <FormDis />
         <PartnersBlock />

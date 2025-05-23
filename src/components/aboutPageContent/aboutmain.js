@@ -7,7 +7,7 @@ import { AboutPageHero } from "@/components/aboutPageContent/hero-section";
 import { PreviewSection } from "@/components/ui/preview";
 import { InfoSectionList } from "@/components/ui/info-sections";
 import { aboutSectionData } from "@/data/section-data/about-sections-data";
-import { StatsSection } from "./stats-section";
+import { StatsSection } from "../ui/stats-section";
 import { MainServices } from "@/components/ui/main-services";
 import { AboutConclusionSection } from "./conclusion-section";
 

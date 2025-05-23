@@ -146,20 +146,22 @@ export const ReviewBlock = () => {
   const currentReview = reviews[currentIndex];
 
   return (
-    <div className="review-block" ref={containerRef}>
-      <div className="text-white pb-10">
-        <div className="uppercase font-bold">our reviews</div>
-        <h2 className="title-text-block">See why our customers trust us</h2>
-      </div>
-      <div className="review">
-        <div ref={starsRef}>
-          <Stars />
+    <div className="block_reviews">
+      <div className="review-block" ref={containerRef}>
+        <div className="text-white pb-10">
+          <div className="uppercase font-bold">our reviews</div>
+          <h2 className="title-text-block">See why our customers trust us</h2>
         </div>
-        <div ref={textRef} className="reviews_text">
-          {currentReview.text}
-        </div>
-        <div ref={nameRef} className="reviews_name">
-          {currentReview.name}
+        <div className="review">
+          <div ref={starsRef}>
+            <Stars />
+          </div>
+          <div ref={textRef} className="reviews_text">
+            {currentReview.text}
+          </div>
+          <div ref={nameRef} className="reviews_name">
+            {currentReview.name}
+          </div>
         </div>
       </div>
     </div>

@@ -6,7 +6,10 @@ export function MainPageHero() {
       <div className="title_main_text_container">
         <div className="Head_text">
           <div>
-            <h1 className="head_text1">About Us</h1>
+            <h1 className="font-header text-9xl uppercase text-shadow-lg">
+              your comfort <br />
+              our priority
+            </h1>
             <p className="head_p">
               Your trusted <strong>HVAC contractor</strong> right next to
               you—for

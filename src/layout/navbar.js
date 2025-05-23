@@ -59,13 +59,15 @@ function Navbar() {
                 <Link href={`/${slugify(item.label)}`}>
                   <NavButton label={item.label} />
                 </Link>
-                <ul className="nav_dropdown">
+                <div className="nav_dropdown">
                   {item.children.map((child) => (
-                    <li key={child.href} className="nav_link_item">
-                      <Link href={child.href}>{child.label}</Link>
-                    </li>
+                    <Link href={child.href}>
+                      <div key={child.href} className="nav_link_item">
+                        {child.label}
+                      </div>
+                    </Link>
                   ))}
-                </ul>
+                </div>
               </li>
             ))}
             {NAV_SERVICES.map((item) => (
@@ -73,13 +75,15 @@ function Navbar() {
                 <Link href={`/services/${slugify(item.label)}`} passHref>
                   <NavButton label={item.label} />
                 </Link>
-                <ul className="nav_dropdown">
+                <div className="nav_dropdown">
                   {item.children.map((child) => (
-                    <li key={child} className="nav_link_item">
-                      <Link href={`/services/${slugify(child)}`}>{child}</Link>
-                    </li>
+                    <Link href={`/services/${slugify(child)}`}>
+                      <div key={child} className="nav_link_item">
+                        {child}
+                      </div>
+                    </Link>
                   ))}
-                </ul>
+                </div>
               </li>
             ))}
 
