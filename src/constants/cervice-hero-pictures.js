@@ -31,4 +31,22 @@ export const HERO_IMAGES = {
     "/images/services-hero-pictures/electrical-electrical-service-air-technician-electrical-quality-cooling-charging-smart-battle-ground.webp",
   "maintenance-repair":
     "/images/services-hero-pictures/ev-port-maintenance-repair-home-eco-maintenance-thermostat-performance-system-ductless-orchards.webp",
+  cooling: "/images/services-hero-pictures/cooling.webp",
+  heating: "/images/services-hero-pictures/heating.webp",
+  ductless: "/images/services-hero-pictures/ductless.webp",
+  "heat-pumps": "/images/services-hero-pictures/heat-pumps.webp",
+  "heating-repair": "/images/services-hero-pictures/heating-repair.webp",
+  "heating-maintenance":
+    "/images/services-hero-pictures/heating-maintenance.webp",
+  "heating-installation":
+    "/images/services-hero-pictures/heating-installation.webp",
+  "hp-installation":
+    "/images/services-hero-pictures/heat-pump-installation.webp",
+  "hp-repair": "/images/services-hero-pictures/heat-pump-repair.webp",
+  "hp-maintenance": "/images/services-hero-pictures/heat-pump-maintenance.webp",
+  "mini-split-repair": "/images/services-hero-pictures/mini-split-repair.webp",
+  "mini-split-maintenance":
+    "/images/services-hero-pictures/mini-split-maintenance.webp",
+  "mini-split-installation":
+    "/images/services-hero-pictures/mini-split-installation.webp",
 };

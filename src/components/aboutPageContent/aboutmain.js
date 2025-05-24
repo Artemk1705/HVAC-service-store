@@ -83,6 +83,8 @@ export function Aboutpage() {
         text={aboutSectionData.firstSection.text}
         image={aboutSectionData.firstSection.image}
         tag={aboutSectionData.firstSection.tag}
+        button={aboutSectionData.firstSection.button}
+        href={aboutSectionData.firstSection.href}
       />
       <StatsSection />
       <InfoSectionList
@@ -91,6 +93,8 @@ export function Aboutpage() {
         text={aboutSectionData.secondSection.text}
         image={aboutSectionData.secondSection.image}
         tag={aboutSectionData.secondSection.tag}
+        button={aboutSectionData.secondSection.button}
+        href={aboutSectionData.secondSection.href}
       />
       <MainServices />
       <InfoSectionList
@@ -99,6 +103,8 @@ export function Aboutpage() {
         text={aboutSectionData.thirdSection.text}
         image={aboutSectionData.thirdSection.image}
         tag={aboutSectionData.thirdSection.tag}
+        button={aboutSectionData.firstSection.button}
+        href={aboutSectionData.secondSection.href}
       />
       <LineChart />
       <AboutConclusionSection />

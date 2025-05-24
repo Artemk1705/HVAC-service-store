@@ -56,12 +56,12 @@ function Navbar() {
           <ul className="nav_links_list">
             {NAV_MAIN_PAGES.map((item) => (
               <li key={item.label} className="nav_item">
-                <Link href={`/${slugify(item.label)}`}>
+                <Link href={`/${slugify(item.label)}`} passHref>
                   <NavButton label={item.label} />
                 </Link>
                 <div className="nav_dropdown">
                   {item.children.map((child) => (
-                    <Link href={child.href}>
+                    <Link href={child.href} passHref>
                       <div key={child.href} className="nav_link_item">
                         {child.label}
                       </div>
@@ -77,10 +77,12 @@ function Navbar() {
                 </Link>
                 <div className="nav_dropdown">
                   {item.children.map((child) => (
-                    <Link href={`/services/${slugify(child)}`}>
-                      <div key={child} className="nav_link_item">
-                        {child}
-                      </div>
+                    <Link
+                      href={`/services/${slugify(child)}`}
+                      key={child}
+                      passHref
+                    >
+                      <div className="nav_link_item">{child}</div>
                     </Link>
                   ))}
                 </div>

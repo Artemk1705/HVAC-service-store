@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export function MainPageHero() {
   return (
-    <div className="relative w-screen h-[75vh] bg-[url('/images/air-quality.webp')] bg-cover bg-center flex items-center justify-center">
+    <div className="relative w-screen h-[75vh] bg-[url('/images/hvac-contractor-ac-repair-heating-installation-ductless-mini-split-furnace-maintenance-heat-pump-emergency-service-air-quality-electrical-vancouver-portland-wa-or.webp')] bg-cover bg-center flex items-center justify-center">
       <div className="title_main_text_container">
         <div className="Head_text">
           <div>

@@ -35,7 +35,7 @@ export default function CityPage({ params }) {
 
   const { title, sections, conclusion } = cityContent;
 
-  const backgroundImage = CITY_IMAGES[params.city] || "/images/serv-back.webp";
+  const backgroundImage = CITY_IMAGES[city] || "/images/serv-back.webp";
 
   const section1 = sections.slice(0, 1);
   const section2 = sections.slice(1, 2);
@@ -43,7 +43,7 @@ export default function CityPage({ params }) {
 
   return (
     <div className="city-page">
-      <CityHeroSection title={title} background={backgroundImage} />
+      <CityHeroSection title={title} backgroundImage={backgroundImage} />
       <PreviewSection />
       <MainServices />
       <SectionList sections={section1} />

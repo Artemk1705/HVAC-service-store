@@ -1,4 +1,5 @@
 import { highlightKeywords } from "@/constants/robots-words";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 export function SectionList({ sections }) {
@@ -22,10 +23,13 @@ export function SectionList({ sections }) {
               index % 2 === 0 ? "flex-row" : "flex-row-reverse"
             }`}
           >
-            <img
+            <Image
               className="w-2/5 h-auto object-cover rounded-lg shadow-md"
               src="/images/navbar-logo.png"
               alt="Service"
+              loading="lazy"
+              width={700}
+              height={500}
             />
             <div className="w-2/5 flex flex-col justify-center">
               <h2 className="text-3xl font-bold mb-10">{section.heading}</h2>

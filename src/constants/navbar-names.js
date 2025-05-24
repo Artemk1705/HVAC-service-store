@@ -21,22 +21,11 @@ export const NAV_SERVICES = [
   },
   {
     label: "Air Quality",
-    children: [
-      "Air Filter",
-      "Thermostat",
-      "UV Air Scrubber",
-      "Air Duct Cleaning",
-    ],
+    children: ["Air Filter", "Thermostat"],
   },
   {
     label: "Electrician",
-    children: [
-      "Electrical Service",
-      "Electrical Repair",
-      "Electrical Installation",
-      "EV Charging Port Installation",
-      "EV Port Maintenance / Repair",
-    ],
+    children: [],
   },
 ];
 
@@ -44,10 +33,7 @@ export const NAV_MAIN_PAGES = [
   {
     label: "About",
     children: [
-      { label: "Our History", href: "/history" },
-      { label: "FAQ", href: "/faq" },
       { label: "Careers", href: "/careers" },
-      { label: "Reviews", href: "/reviews" },
       { label: "Contact", href: "/contact" },
     ],
   },

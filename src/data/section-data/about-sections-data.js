@@ -14,6 +14,8 @@ export const aboutSectionData = {
         ensure that your HVAC systems are operating at peak efficiency.`,
     image: "/images/about-page-sections/about-section-main.webp",
     tag: "adwdawd",
+    button: "learn more",
+    href: "/",
   },
   secondSection: {
     title: "Elevating Your HVAC Experience with Premier Brands and Expertise",
@@ -31,6 +33,8 @@ export const aboutSectionData = {
         complexity.`,
     image: "/images/about-page-sections/about-section-first.webp",
     tag: "adwdawd",
+    button: "learn more",
+    href: "/",
   },
   thirdSection: {
     title: "Why homeowners & buisnesses trust Smart HVAC",
@@ -46,5 +50,7 @@ export const aboutSectionData = {
         maintained to the highest industry standards.`,
     image: "/images/about-page-sections/about-section-second.webp",
     tag: "adwdawd",
+    button: "learn more",
+    href: "/",
   },
 };
