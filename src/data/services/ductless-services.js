@@ -1,166 +1,173 @@
 export const MINI_SPLIT_REPAIR_CONTENT = {
-  title: "Mini Split Repair Services by Smart HVAC",
+  title: "Mini Split Repair",
   sections: [
     {
-      heading: "Why Mini Splits Are a Smart Choice",
-      bullets: [
-        "High Efficiency (SEER 20+) — saving up to 50% on energy bills",
-        "Zoned Climate Control — heat or cool individual rooms independently",
-        "Quiet Operation — ideal for bedrooms, offices, and living spaces",
-        "Modern Smart Controls — many models integrate with mobile apps and home automation",
-      ],
+      preview:
+        "Expert Mini Split Repair for Ductless Heating and Cooling Systems",
+      previewParagraph:
+        "If your mini split isn’t cooling or heating like it used to, Smart HVAC is here to help. Our technicians are trained to diagnose and repair ductless mini split issues—fast. Whether it’s poor airflow, error codes, or temperature inconsistencies, we’ll get your system back on track with precise, professional service. We also check the indoor unit’s sensors, clean filters, and evaluate refrigerant pressure to ensure full performance restoration.",
+      title:
+        "We quickly diagnose and repair ductless mini split systems to restore quiet comfort and energy savings.",
     },
     {
-      heading: "Common Mini Split Problems We Repair",
-      bullets: [
-        "No heating or cooling",
-        "Indoor unit won’t power on",
-        "Leaking refrigerant lines",
-        "Blocked or frozen coils",
-        "Water dripping from the wall unit",
-        "Unusual noises or vibration",
-        "Poor airflow or uneven temperatures",
-        "Remote or thermostat not responding",
-        "Outdoor unit not running",
-        "Error codes on display",
-      ],
+      title: "Common Mini Split Issues We Repair",
+      text: "Whether your unit won’t power on, displays error codes, has refrigerant leaks, or airflow problems—we can fix it. Our certified HVAC techs service all major ductless brands like Mitsubishi, Daikin, LG, and Fujitsu.",
     },
     {
-      heading: "Why Timely Mini Split Repair Matters",
-      bullets: [
-        "Prevent Total System Failure: Ignoring small issues can lead to compressor damage or full system replacement.",
-        "Avoid Energy Waste: A malfunctioning mini split will run longer to try to reach the desired temperature, driving up your electric bill.",
-        "Restore Indoor Comfort: Mini splits are often installed in bedrooms, living rooms, or offices — so breakdowns directly affect your comfort and productivity.",
-        "Protect Your Investment: Mini splits can last 15–20 years, but only if they're properly maintained and repaired promptly when needed.",
-        "Preserve Manufacturer Warranty: Most brands require professional service for warranty coverage to remain valid.",
-      ],
+      title: "Troubleshooting All System Components",
+      text: "We inspect indoor heads, remote controls, outdoor condensers, wiring, and sensors. We identify root causes and fix issues including water leaks, ice buildup, and unresponsive modes.",
     },
     {
-      heading: "Why Choose Smart HVAC for Mini Split Repairs?",
-      bullets: [
-        "Mitsubishi Diamond & Daikin Elite Dealer Experience",
-        "Fast Diagnostics, Honest Solutions",
-        "Fully Stocked Service Vans",
-        "5-Year Workmanship Warranty",
-        "Emergency and Same-Day Appointments",
-      ],
+      title: "Emergency Mini Split Repair Services",
+      text: "No heat or cooling in extreme weather? Smart HVAC offers 24/7 emergency service across Vancouver WA, Portland OR, and surrounding areas. We arrive fast with parts and tools to restore comfort quickly.",
+    },
+    {
+      title: "Restore Efficiency and Cut Costs",
+      text: "A malfunctioning mini split uses more energy and delivers less comfort. We restore full performance to improve air quality, climate control, and system longevity—saving you money.",
+    },
+    {
+      title: "Smart Thermostat Compatibility & Repairs",
+      text: "Issues with smart or Wi-Fi thermostats? We integrate and calibrate your controls for zoning and remote access. Ask us about replacing or upgrading your controller.",
+    },
+    {
+      title: "Consider Maintenance or Replacement?",
+      text: "Frequent breakdowns or aging systems may indicate it’s time for a replacement. We’ll help you weigh repair vs. new [Mini Split Installation] options based on your budget and goals.",
+    },
+    {
+      title: "Related Services",
+      text: `- Mini Split Maintenance [Link]
+  - Heat Pump Repair [Link]
+  - Smart Thermostat Installation [Link]`,
+    },
+    {
+      title: "Service Area – Ductless Experts Near You",
+      text: "We serve Beaverton, Ridgefield, Camas, Battle Ground, Vancouver WA, and greater Portland metro. Searching for “mini split repair near me”? Count on Smart HVAC for same-day service.",
+    },
+    {
+      title: "Why Choose Smart HVAC",
+      text: `- Licensed & insured technicians
+  - Certified in ductless systems
+  - Transparent pricing with no surprise fees
+  - Same-day availability & emergency service
+  - Dealer for Mitsubishi, Daikin, and York`,
     },
   ],
   conclusion:
-    "Whether your mini split has stopped cooling, is leaking, or just isn’t responding — Smart HVAC delivers trusted, fast, and expert ductless repair service that gets you back to comfort quickly. Call us today for same-day diagnostics and repair!",
+    "Trust Smart HVAC for fast, reliable mini split repairs that restore comfort and efficiency. We’re your local ductless experts—ready to get your system back on track with expert care and honest service.",
 };
 
 export const MINI_SPLIT_MAINTENANCE_CONTENT = {
-  title: "Mini Split Maintenance Services by Smart HVAC",
+  title: "Mini Split Maintenance",
   sections: [
     {
-      heading: "Why Mini Split Maintenance Is So Important",
-      bullets: [
-        "Preserve Energy Efficiency: Dirt and debris buildup can reduce efficiency by up to 25%. Cleaning coils, filters, and fans helps your system maintain its high SEER rating and keeps energy bills low.",
-        "Extend Equipment Lifespan: Regular tune-ups help your system last 15–20 years or longer by catching minor issues before they turn into major breakdowns.",
-        "Prevent Mold and Odors: Mini splits are prone to moisture buildup inside the indoor unit. Without regular cleaning, this can lead to mold growth, musty odors, and poor indoor air quality.",
-        "Maintain Air Quality: Filters and coils collect dust, pollen, and allergens. Cleaning them regularly improves air circulation and breathing comfort — especially for those with allergies or asthma.",
-        "Reduce Risk of Emergency Repairs: Routine inspections help prevent unexpected breakdowns, especially during extreme temperatures.",
-        "Comply with Manufacturer Warranty: Most manufacturers require annual maintenance by a licensed professional to maintain full warranty protection.",
-      ],
+      preview:
+        "Optimize Efficiency with Regular Mini Split Maintenance Services",
+      previewParagraph:
+        "Preventative maintenance keeps your ductless system operating at peak performance. At Smart HVAC, we clean filters, inspect electrical connections, and check refrigerant levels to ensure optimal performance. We also inspect the drain lines, calibrate thermostats, and check for system error codes to prevent sudden breakdowns. Routine maintenance improves energy efficiency, protects your investment, and promotes consistent indoor comfort.",
+      title:
+        "Prevent costly breakdowns and keep your ductless system running like new with professional maintenance.",
     },
     {
-      heading: "What’s Included in Our Mini Split Tune-Up",
-      bullets: [
-        "Cleaning and disinfecting indoor unit coils",
-        "Washing and drying reusable filters",
-        "Inspecting and cleaning blower wheel and fan blades",
-        "Flushing and clearing condensate drain lines",
-        "Inspecting outdoor unit for debris, damage, or obstructions",
-        "Checking refrigerant pressure and lines for leaks",
-        "Verifying system modes (heat/cool) and changeover",
-        "Calibrating and testing remote or thermostat controls",
-        "Checking electrical components and safety circuits",
-        "Measuring system output and airflow",
-      ],
+      title: "Why Ductless Mini Split Maintenance Matters",
+      text: "Mini split systems require routine care to function efficiently. Dust, debris, and blocked filters can lead to poor performance and higher energy bills. Smart HVAC keeps your unit clean, calibrated, and reliable year-round.",
     },
     {
-      heading: "Why Choose Smart HVAC for Mini Split Maintenance?",
-      bullets: [
-        "Factory-Certified Mini Split Specialists — trained and experienced in ductless systems, including multi-zone and inverter models.",
-        "Detail-Oriented Service — we take the time to open, clean, and fully test your system.",
-        "Seasonal Maintenance Plans — priority service, 10% off repairs, and up to a 5-year workmanship warranty.",
-        "Mold & Odor Prevention Treatment Available — deep coil disinfecting for recurring odor issues.",
-        "Fast Scheduling and Transparent Pricing — flat-rate pricing and online booking for convenience.",
-      ],
+      title: "What’s Included in Our Maintenance Service",
+      text: "Our tune-up includes: filter cleaning or replacement, coil inspection, electrical testing, thermostat calibration, drain line check, and refrigerant pressure check. We ensure all indoor and outdoor components operate at peak condition.",
     },
     {
-      heading: "Ideal Maintenance Schedule",
-      bullets: [
-        "Mini splits should be professionally serviced at least once per year.",
-        "Twice annually (spring and fall) is ideal for high-use systems or homes with allergies, pets, or full-time operation.",
-      ],
+      title: "Recommended Service Schedule",
+      text: "Mini splits should be serviced twice annually—before summer and before winter. Homes with pets, heavy usage, or multiple zones may benefit from quarterly visits. Ask about our [Maintenance Plan] for worry-free scheduling.",
+    },
+    {
+      title: "Enhance Comfort and Air Quality",
+      text: "Clean filters and coils improve airflow and help maintain consistent temperature and humidity control. Maintenance also reduces dust and allergens in your indoor air.",
+    },
+    {
+      title: "Save Energy and Reduce Wear",
+      text: "Neglected systems work harder to achieve the same comfort level. Prevent unnecessary strain and prolong the life of your investment by keeping your mini split in top shape.",
+    },
+    {
+      title: "Time to Upgrade?",
+      text: "If your system shows signs of frequent issues or age-related wear, our technicians can advise if it’s time for a new unit. Visit our [Mini Split Installation] page for high-efficiency replacement options.",
+    },
+    {
+      title: "Related Services",
+      text: `- Mini Split Repair [Link]
+  - Smart Thermostat Installation [Link]
+  - Air Filter Replacement [Link]`,
+    },
+    {
+      title: "Local Experts You Can Trust",
+      text: "Smart HVAC proudly services homes and businesses across Vancouver WA, Camas, Portland OR, Ridgefield, and surrounding cities. For “mini split maintenance near me,” we’re your go-to pros.",
+    },
+    {
+      title: "Why Smart HVAC?",
+      text: `- Experienced and certified ductless system technicians
+  - Transparent, flat-rate pricing
+  - Dealer for Mitsubishi, Daikin, and more
+  - On-time service with satisfaction guaranteed
+  - 5-star reputation for reliability`,
     },
   ],
   conclusion:
-    "Protect your investment, breathe cleaner air, and ensure efficient operation year-round with Smart HVAC’s mini split maintenance service. Book your tune-up today — your comfort and your system will thank you.",
+    "Smart HVAC's ductless system maintenance services ensure your mini split runs efficiently, quietly, and reliably all year. Schedule your tune-up today and protect your investment with expert care.",
 };
 
 export const MINI_SPLIT_INSTALLATION_CONTENT = {
-  title: "Mini Split Installation Services by Smart HVAC",
+  title: "Mini Split Installation",
   sections: [
     {
-      heading: "What Is a Mini Split System?",
-      bullets: [
-        "A mini split is a ductless heat pump system that provides heating and cooling.",
-        "It consists of an outdoor compressor and one or more indoor units connected by refrigerant lines.",
-        "Each indoor unit operates independently for zoned temperature control.",
-      ],
+      preview:
+        "Upgrade to Ductless Heating & Cooling with Professional Mini Split Installation",
+      previewParagraph:
+        "Looking to enhance your home’s comfort and energy efficiency? Smart HVAC offers expert ductless mini split installation services customized to your home’s unique layout and temperature needs. Whether you want to condition specific rooms or improve comfort throughout your entire home, ductless mini split systems are a flexible and energy-efficient solution. Our licensed HVAC contractors are known for their precision workmanship, honest pricing, and seamless installation process. We also help you select the right system size, number of indoor units, and offer financing or rebate options.",
+      title:
+        "Efficient, quiet, and flexible climate control—installed by experts at Smart HVAC.",
     },
     {
-      heading: "Why Mini Split Installation Is a Smart Choice",
-      bullets: [
-        "No Ductwork Needed: Great for homes without central HVAC, additions, or remodels.",
-        "High Energy Efficiency: SEER ratings above 20; 40–60% more efficient than baseboard or window units.",
-        "Year-Round Comfort: Provides both heating and cooling with inverter technology.",
-        "Zoned Control: Set different temperatures in different rooms.",
-        "Quiet Performance: Whisper-quiet operation indoors and outdoors.",
-        "Sleek Design: Modern indoor unit options blend with room aesthetics.",
-        "Cleaner Air: Built-in multi-stage filtration removes allergens and odors.",
-      ],
+      title: "Ideal Comfort for Any Space",
+      text: "Mini split systems are perfect for home additions, converted garages, ADUs, offices, and older homes without ductwork. Smart HVAC customizes your install based on room size, insulation, and usage patterns.",
     },
     {
-      heading: "Why Choose Smart HVAC for Mini Split Installation?",
-      bullets: [
-        "Certified Installers for Mitsubishi, Daikin, York, American Standard, and others.",
-        "Custom System Design: We size and place systems for ideal comfort and performance.",
-        "Quick & Clean Installations: Most projects done in a single day.",
-        "Smart Controls & Wi-Fi Integration: Control zones remotely with your phone or remote.",
-        "Strong Warranties: 5-year workmanship warranty (with plan), up to 12-year manufacturer warranty.",
-      ],
+      title: "Our Mini Split Installation Process",
+      text: "We help select the right capacity, number of zones, and mounting style (wall, floor, ceiling). Then we install indoor and outdoor units, run linesets, insulate all connections, and fully test performance. Permits and inspections are included.",
     },
     {
-      heading: "Federal Tax Credits & Local Rebates",
-      bullets: [
-        "IRS Tax Credit: Up to $2,000 for ENERGY STAR® systems.",
-        "Clark Public Utilities (WA): Up to $1,200 rebate.",
-        "Energy Trust of Oregon: Up to $1,700 in incentives.",
-        "On-Bill Financing: Help accessing 0% or low-interest programs and paperwork.",
-      ],
+      title: "Quiet, Zoned Climate Control",
+      text: "Each indoor unit operates independently for room-by-room control. Mini splits are whisper-quiet, energy-efficient, and reduce overall HVAC load. Enjoy consistent comfort without the noise or cost of traditional systems.",
     },
     {
-      heading: "Best Uses for Mini Splits",
-      bullets: [
-        "Homes without ductwork or with electric baseboard heat.",
-        "New additions, sunrooms, converted garages or attics.",
-        "Rooms with uneven temperatures.",
-        "Small commercial offices or ADUs.",
-      ],
+      title: "Energy Savings & Rebates",
+      text: "Mini splits often qualify for utility rebates and federal tax credits. We install top brands like Mitsubishi, Daikin, and LG to maximize savings and reduce your carbon footprint.",
     },
     {
-      heading: "Why Smart HVAC Is the Right Choice",
-      bullets: [
-        "Enjoy efficient, quiet, and personalized comfort in every room.",
-        "Get help maximizing rebates and tax incentives.",
-        "Trust expert design, installation, and long-term support.",
-      ],
+      title: "Upgrade from Inefficient Systems",
+      text: "Replacing window AC units or baseboard heaters? A ductless mini split is more efficient, cleaner, and better for your health. Let our team help you calculate long-term savings.",
+    },
+    {
+      title: "Warranties and Ongoing Support",
+      text: "Your new system is backed by manufacturer warranties and Smart HVAC’s installation guarantee. Protect it further with our [Maintenance Plan] for priority care and extended equipment life.",
+    },
+    {
+      title: "Related Services",
+      text: `- Mini Split Repair [Link]
+  - Mini Split Maintenance [Link]
+  - Smart Thermostat Installation [Link]`,
+    },
+    {
+      title: "Local Installers You Can Trust",
+      text: "Smart HVAC installs mini split systems in Vancouver WA, Portland OR, Ridgefield, Camas, Beaverton, and surrounding cities. Need “mini split installation near me”? We’re the experts.",
+    },
+    {
+      title: "Why Smart HVAC?",
+      text: `- Certified ductless installers
+  - Transparent, competitive pricing
+  - Fast installation turnaround
+  - Dealer for Mitsubishi, LG, and York
+  - 5-star reviews from local homeowners`,
     },
   ],
   conclusion:
-    "Enjoy efficient, quiet, and personalized comfort in every room — with rebates and tax credits that make it more affordable than ever. With expert installation and premium brands, Smart HVAC is your local authority on mini split systems. Contact us today for a free estimate!",
+    "Experience the convenience and efficiency of ductless heating and cooling with expert mini split installation from Smart HVAC. Contact us today to schedule your consultation and take control of your indoor comfort.",
 };

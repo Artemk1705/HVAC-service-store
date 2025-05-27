@@ -1,161 +1,171 @@
 export const HEATING_REPAIR_CONTENT = {
-  title: "Heating Repair Services by Smart HVAC",
+  title: "Furnace Repair",
   sections: [
     {
-      heading: "Why Timely Heating Repair Is So Important",
-      bullets: [
-        "Health and Safety: A failed heating system during cold weather can expose your family to dangerous temperatures, increasing risks of hypothermia, respiratory illnesses, and carbon monoxide exposure.",
-        "Preventing Further Damage: Operating a malfunctioning system can cause larger issues like cracked heat exchangers, electrical fires, or complete system failure.",
-        "Energy Efficiency: A broken or struggling heater consumes more energy to produce less heat, causing skyrocketing utility bills.",
-        "Home Protection: Consistent indoor heating prevents frozen pipes, moisture buildup, and potential structural damage.",
-        "Peace of Mind: Knowing your heating system is repaired properly gives you confidence that your home will stay warm through every cold snap.",
-      ],
+      preview: "Professional Furnace Repair to Restore Comfort and Efficiency",
+      previewParagraph:
+        "A well-functioning furnace is essential to keeping your home warm, safe, and energy-efficient during the colder months. When your system begins to act up—whether it’s making strange noises, cycling inconsistently, or failing to heat evenly—it’s time to call the pros. At Smart HVAC, we specialize in fast, accurate furnace repairs that restore your comfort and prevent small issues from becoming costly breakdowns. Our certified technicians are trained to work with all furnace types, including gas and electric systems, ensuring you receive reliable service every time. We also offer diagnostic assessments and maintenance suggestions to extend your system’s life.",
+      title:
+        "Fast, reliable furnace repair services to keep your home warm, safe, and efficient.",
     },
     {
-      heading: "Common Heating Problems We Fix",
-      bullets: [
-        "No Heat or Insufficient Heat: Furnace or heat pump running but not warming your space properly.",
-        "Frequent Cycling: System turning on and off too often, increasing wear and energy use.",
-        "Strange Noises: Whistling, banging, or rattling sounds that indicate mechanical or airflow issues.",
-        "Blower Issues: Weak airflow or a blower motor that doesn’t shut off.",
-        "Ignition or Pilot Light Problems: Issues with gas ignition, electronic igniters, or pilot lights failing.",
-        "Thermostat Malfunctions: Inaccurate temperature readings or communication errors between thermostat and furnace.",
-        "Clogged or Dirty Filters: Leading to restricted airflow, overheating, or poor air quality.",
-        "Refrigerant or Airflow Problems in Heat Pumps: Impacting the system's ability to heat properly.",
-      ],
+      title: "Common Furnace Issues We Repair",
+      text: "Strange noises, inconsistent heat, or frequent cycling? These are signs your furnace needs expert attention. Smart HVAC repairs gas and electric furnaces of all makes and models, quickly identifying problems with igniters, pilot lights, blowers, or control boards.",
     },
     {
-      heading: "Our Heating Repair Process",
-      bullets: [
-        "Comprehensive Diagnosis — We perform a full system inspection to find the true cause of the problem, not just the symptoms.",
-        "Clear Explanation and Estimate — We explain the issue, your options, and pricing before any repairs start.",
-        "Expert Repairs — We use high-quality parts and proven techniques to fix your system right the first time.",
-        "System Testing — Post-repair, we thoroughly test your heating system for performance, safety, and efficiency.",
-        "All repairs are backed by our workmanship warranty: 5 years with an active maintenance plan or 2 years standard.",
-      ],
+      title: "Expert Troubleshooting & Diagnostics",
+      text: "Our technicians come equipped with the tools and knowledge to diagnose the issue on the spot. We explain what’s wrong, offer repair options, and provide upfront pricing—so there are no surprises.",
     },
     {
-      heading: "Emergency Heating Repair Available",
-      bullets: [
-        "24/7 emergency heating repair services for urgent situations during cold nights or freezing storms.",
-        "Fast response and immediate support from trained HVAC professionals.",
-      ],
+      title: "Same-Day & Emergency Service Available",
+      text: "We know heat issues can't wait. That’s why we offer same-day scheduling and 24/7 emergency furnace repair in Vancouver WA, Portland OR, and surrounding areas. Don’t sit in the cold—call us now.",
     },
     {
-      heading: "Why Trust Smart HVAC for Heating Repairs?",
-      bullets: [
-        "Licensed, Insured, and Experienced Technicians",
-        "Service for All Major Brands and Models",
-        "Transparent, Honest Pricing",
-        "Fast Response Times",
-        "Top-Tier Customer Service",
-        "Priority Scheduling for Annual Plan Members",
-      ],
-    },
-
-    {
-      heading: "Conclusion",
-      bullets: [
-        "Whether it's a small thermostat issue or a major system malfunction, Smart HVAC delivers trusted, efficient, and expert heating repairs — helping you stay warm, safe, and comfortable all winter long.",
-      ],
-    },
-  ],
-};
-
-export const HEATING_MAINTENANCE_CONTENT = {
-  title: "Heating Maintenance Services by Smart HVAC",
-  sections: [
-    {
-      heading: "Why Heating Maintenance Is Essential",
-      bullets: [
-        "Maximized Efficiency: Dust, debris, and worn components force your heater to work harder than necessary, consuming more energy.",
-        "Longer Equipment Lifespan: Heating systems that receive annual maintenance can last 15–20 years or more, while neglected units often fail in under 10.",
-        "Fewer Breakdowns: Preventative care helps detect and fix small issues before they become major, expensive problems.",
-        "Better Indoor Air Quality: Dirty filters and coils spread dust and allergens. Maintenance improves the cleanliness and health of your home’s air.",
-        "Safety Assurance: Gas furnaces can develop carbon monoxide leaks or fire risks if ignored. Our inspections include full safety checks for your peace of mind.",
-        "Manufacturer Warranty Protection: Many furnace and heat pump warranties require proof of annual professional maintenance to remain valid.",
-      ],
+      title: "Improve System Performance & Safety",
+      text: "A poorly performing furnace not only consumes more energy but may pose safety risks like carbon monoxide leaks. Our repairs improve airflow, ignition reliability, and thermostat responsiveness for better indoor comfort.",
     },
     {
-      heading: "What’s Included in Our Heating Tune-Up",
-      bullets: [
-        "Full inspection of furnace, heat pump, or ductless heating system",
-        "Gas pressure and combustion analysis (for gas furnaces)",
-        "Heat exchanger inspection for cracks or corrosion",
-        "Electrical system testing (controls, safety switches, wiring)",
-        "Blower motor and belt inspection",
-        "Filter replacement or cleaning",
-        "Burner cleaning and flame calibration",
-        "Condensate drain check (for high-efficiency systems)",
-        "Thermostat inspection and recalibration",
-        "Safety switch and sensor testing",
-        "Airflow testing and duct evaluation",
-        "Carbon monoxide testing (if applicable)",
-        "Overall system efficiency assessment",
-      ],
+      title: "Is It Time for Repair or Replacement?",
+      text: "If your furnace is 15+ years old or breaks down often, it might be more cost-effective to replace it. We’ll explain your options and may recommend a high-efficiency model from American Standard or York. See our [Furnace Installation] page.",
     },
     {
-      heading: "When to Schedule Heating Maintenance",
-      bullets: [
-        "We recommend heating maintenance at least once per year, ideally during fall (September through November).",
-        "For older systems (10+ years), or in homes with pets, fireplaces, or allergies, biannual service may be beneficial.",
-        "Ask about our Annual Maintenance Plan, which includes: priority scheduling, 10% off all repairs, no diagnostic fees, and an extended 5-year workmanship warranty.",
-      ],
+      title: "Detailed Reporting & Honest Estimates",
+      text: "After every service, you receive a clear report of what was done and what to expect. No hard sales—just honest, professional guidance from certified HVAC experts.",
     },
     {
-      heading: "Why Choose Smart HVAC",
-      bullets: [
-        "Professional seasonal tune-ups by licensed technicians.",
-        "Prevent breakdowns, lower bills, and extend equipment lifespan.",
-        "Detailed service reports and honest recommendations.",
-        "Priority scheduling and maintenance plan benefits available.",
-      ],
+      title: "Local Furnace Repair Near You",
+      text: "Smart HVAC proudly serves Ridgefield, Battle Ground, Camas, Vancouver WA, and the Portland metro. If you’re searching “furnace repair near me,” we’re the trusted, top-rated solution.",
+    },
+    {
+      title: "Related Services",
+      text: `- Furnace Maintenance [Link]
+  - Heat Pump Repair [Link]
+  - Air Duct Cleaning [Link]`,
+    },
+    {
+      title: "Why Choose Smart HVAC",
+      text: `- Fast response times and flexible scheduling
+  - Certified and insured technicians
+  - Dealer for York, American Standard, and Mitsubishi
+  - Transparent pricing & workmanship guarantee
+  - 5-star reviews on Google and Yelp`,
     },
   ],
   conclusion:
-    "Don’t wait until your heater fails in the middle of winter. With Smart HVAC’s heating maintenance, you’re investing in comfort, safety, and long-term savings. Schedule your tune-up today and enjoy a worry-free winter.",
+    "Don’t let furnace problems leave you in the cold. Trust Smart HVAC for expert, timely furnace repair services that restore warmth, comfort, and peace of mind all winter long.",
+};
+
+export const HEATING_MAINTENANCE_CONTENT = {
+  title: "Furnace Maintenance",
+  sections: [
+    {
+      preview:
+        "Extend the Life of Your Furnace with Professional Heating Maintenance",
+      previewParagraph:
+        "Scheduled furnace maintenance is essential to maintaining efficiency, preventing costly breakdowns, and ensuring safe operation. At Smart HVAC, we perform seasonal heating tune-ups that include burner inspections, airflow testing, and safety checks to keep your furnace running smoothly. Our proactive maintenance services help you detect issues early and avoid emergency repairs. We also test for carbon monoxide leaks and other critical safety hazards to give you complete peace of mind throughout the winter.",
+      title:
+        "Stay warm and worry-free with seasonal tune-ups that improve efficiency and prevent costly breakdowns.",
+    },
+    {
+      title: "Why Furnace Maintenance Is Crucial",
+      text: "Regular maintenance ensures your furnace operates safely, efficiently, and reliably throughout the cold season. At Smart HVAC, we help prevent breakdowns, reduce utility bills, and extend the lifespan of your heating system through comprehensive service.",
+    },
+    {
+      title: "What’s Included in Our Furnace Tune-Ups",
+      text: "Our tune-up includes: burner inspection and cleaning, heat exchanger evaluation, airflow and gas pressure tests, electrical component check, thermostat calibration, and system safety checks. We’ll make sure your system is running smoothly and safely.",
+    },
+    {
+      title: "Best Time for Heating Maintenance",
+      text: "We recommend scheduling furnace maintenance each fall—before the first cold snap. For older systems or homes with pets, more frequent visits may be advised. Ask about our [Maintenance Plan] for automatic scheduling and member benefits.",
+    },
+    {
+      title: "Improve Air Quality and Performance",
+      text: "A clean furnace filters indoor air more effectively, providing healthier air for your family. Our maintenance also improves airflow, helps your unit run quieter, and supports better temperature control.",
+    },
+    {
+      title: "Avoid Emergency Repairs",
+      text: "Unexpected furnace failures can leave your home dangerously cold. Prevent surprises and costly service calls by maintaining your unit regularly. We identify small issues before they become major problems.",
+    },
+    {
+      title: "Thinking About a System Upgrade?",
+      text: "During maintenance, we’ll evaluate your furnace’s age and performance. If it’s nearing the end of its life, we may suggest a replacement with a high-efficiency system. Learn more on our [Furnace Installation] page.",
+    },
+    {
+      title: "Related Services",
+      text: `- Furnace Repair [Link]
+  - Heat Pump Maintenance [Link]
+  - Smart Thermostat Installation [Link]`,
+    },
+    {
+      title: "Where We Serve",
+      text: "We provide furnace maintenance across Vancouver WA, Camas, Portland OR, Ridgefield, and surrounding cities. Search “furnace tune-up near me” and count on Smart HVAC for reliable local service.",
+    },
+    {
+      title: "Benefits of Choosing Smart HVAC",
+      text: `- Friendly, certified HVAC professionals
+  - Fully licensed, bonded, and insured
+  - Dealer for York, American Standard, Mitsubishi
+  - Transparent pricing and thorough reports
+  - 5-star reviews across platforms`,
+    },
+  ],
+  conclusion:
+    "Protect your heating system with regular maintenance from Smart HVAC. Our thorough furnace tune-ups help you avoid breakdowns, save money, and stay warm all winter long.",
 };
 
 export const HEATING_INSTALLATION_CONTENT = {
-  title: "Heating Installation Services by Smart HVAC",
+  title: "Furnace Installation",
   sections: [
     {
-      heading: "Why Upgrade Your Heating System?",
-      bullets: [
-        "Energy Efficiency: New high-efficiency furnaces and heat pumps can cut energy consumption by up to 40%, helping you save money and reduce your carbon footprint.",
-        "Reliability: Older systems are more prone to breakdowns, especially in the middle of winter. A new unit gives you peace of mind and consistent performance.",
-        "Comfort Improvement: Modern systems distribute heat more evenly, eliminate cold spots, and operate much quieter.",
-        "Technology Integration: Today’s systems are compatible with smart thermostats, zoning systems, and advanced controls, giving you better command over your indoor climate.",
-        "Rebate Opportunities: State and utility rebate programs may help offset the cost of a new energy-efficient system.",
-        "Home Value Boost: Updated HVAC systems make your home more attractive to buyers and can increase its resale value.",
-      ],
+      preview: "Expert Furnace Installation Services for Year-Round Comfort",
+      previewParagraph:
+        "Smart HVAC offers comprehensive heating and cooling solutions for both homeowners and businesses. Whether you’re upgrading an outdated furnace or exploring energy-efficient options like a mini split installation, our experienced HVAC technicians deliver quality service and long-term comfort. We’re dedicated to improving indoor air quality, maximizing energy efficiency, and ensuring your system operates at peak performance through every season. We handle everything from system design and ductwork adjustments to thermostat integration and post-installation testing.",
+      title:
+        "Replace your outdated furnace with a modern, efficient system installed by trusted local pros.",
     },
     {
-      heading: "Systems We Install",
-      bullets: [
-        "Gas Furnaces – Efficient, powerful, and ideal for colder areas. We install both single-stage and variable-speed models.",
-        "Electric Furnaces – Great for areas without gas infrastructure; clean and easy to maintain.",
-        "Heat Pumps – Dual-purpose systems that heat in winter and cool in summer. Highly efficient for our Northwest climate.",
-        "Ductless Mini Split Heating – Perfect for homes without ductwork or room additions that need independent heating control.",
-        "Smart Thermostats – Improve control, efficiency, and compatibility with mobile apps and home automation systems.",
-      ],
+      title: "Tailored Furnace Installations for Every Home",
+      text: "Your home’s heating needs are unique. Smart HVAC technicians evaluate your home size, insulation, and ductwork to recommend the right furnace. We offer gas and electric options from trusted brands like American Standard, Mitsubishi, and York.",
     },
     {
-      heading: "Why Choose Smart HVAC?",
-      bullets: [
-        "Licensed & Insured Professionals: Our installers are EPA-certified, trained on all major equipment brands, and follow all local code requirements.",
-        "Top Brands You Can Trust: We proudly install systems from American Standard, Mitsubishi Electric, York, Daikin, and Hitachi.",
-        "Custom Solutions: Every heating installation is tailored to your property’s unique structure and your comfort needs.",
-        "Clear Pricing and Fast Turnaround: No hidden charges. Just honest estimates, fast installations (often in one day), and respectful service.",
-        "Warranty & Support: 5-year workmanship warranty with maintenance plan enrollment or 2 years standard.",
-        "Financing & Rebates: We help you access financing options and apply for rebates from local utility programs.",
-      ],
+      title: "Upgrade for Efficiency and Comfort",
+      text: "Modern furnaces are quieter, more efficient, and provide more consistent heat than older models. Our high-efficiency systems can lower energy bills and improve indoor air quality, while qualifying for rebates and tax incentives.",
     },
     {
-      heading: "Why Choose Smart HVAC for Heating Installation",
-      bullets: [
-        "When it comes to comfort, efficiency, and peace of mind, trust Smart HVAC to deliver a smooth and stress-free heating installation experience. Call us today and we’ll help you choose the perfect system to keep your home warm and worry-free for years to come.",
-      ],
+      title: "What’s Included in Our Installation",
+      text: "We remove your old system, adjust ductwork if needed, install your new furnace, connect electrical and gas lines, configure the thermostat, and fully test performance. We also handle city permits and schedule inspections.",
+    },
+    {
+      title: "When to Consider Furnace Replacement",
+      text: "If your furnace is over 15 years old, making frequent repairs, or not heating your home evenly, it may be time to replace it. We offer honest advice and customized solutions to match your comfort and budget goals.",
+    },
+    {
+      title: "Maintenance After Installation",
+      text: "To protect your investment, we recommend ongoing service. Enroll in our [Maintenance Plan] for regular tune-ups, priority service, and extended warranty benefits. Well-maintained systems last longer and perform better.",
+    },
+    {
+      title: "Transparent Pricing & Financing Options",
+      text: "We provide clear, upfront pricing for all installations. Flexible financing is available, and we’ll help you access local utility rebates where applicable.",
+    },
+    {
+      title: "Related Services",
+      text: `- Furnace Repair [Link]
+  - Heat Pump Installation [Link]
+  - Smart Thermostat Installation [Link]`,
+    },
+    {
+      title: "Areas We Serve",
+      text: "Smart HVAC installs furnaces throughout Vancouver WA, Portland OR, Camas, Battle Ground, Ridgefield, and surrounding communities. Searching “furnace installation near me”? We’re your go-to experts.",
+    },
+    {
+      title: "Why Homeowners Trust Smart HVAC",
+      text: `- Licensed, bonded, and insured
+  - Dealer for Mitsubishi, York, and American Standard
+  - Precision installation and expert workmanship
+  - 5-star customer reviews
+  - Clean, courteous, and on-time crews`,
     },
   ],
+  conclusion:
+    "Upgrade your comfort and efficiency with expert furnace installation from Smart HVAC. From honest recommendations to flawless execution, we’re here to help you stay warm and worry-free for years to come.",
 };

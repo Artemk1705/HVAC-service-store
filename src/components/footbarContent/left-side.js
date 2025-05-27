@@ -1,6 +1,6 @@
 export function LeftFootbar() {
   return (
-    <div className="lext_footer_container">
+    <div className="flex flex-col justify-between xl:w-100 w-screen">
       <div className="text-center text-white leading-7 py-5">
         <h3 className="py-4">Company Information</h3>
         <div>

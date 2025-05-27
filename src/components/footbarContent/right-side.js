@@ -8,7 +8,7 @@ export function RightFootbar() {
   ];
 
   return (
-    <div className="w-100 flex justify-evenly flex-col">
+    <div className="xl:w-100 w-screen items-center xl:items-top flex justify-evenly flex-col">
       {states.map((state) => (
         <div key={state.slug} className="city_block">
           <Link href={`/services/${state.slug}`}>

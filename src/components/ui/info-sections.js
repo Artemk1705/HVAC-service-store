@@ -14,32 +14,32 @@ export function InfoSectionList({
   const isEven = sectionIndex % 2 === 0;
 
   const sectionStyles = isEven
-    ? "bg-white text-neutral-900 flex-row"
-    : "bg-neutral-900 text-white flex-row-reverse";
+    ? "bg-white text-neutral-900 xl:flex-row flex-col"
+    : "bg-neutral-900 text-white xl:flex-row-reverse flex-col";
 
   const buttonType = isEven ? "gradient" : "blur";
 
   return (
     <div
-      className={`w-screen py-25 ${
+      className={`w-screen xl:py-25 pb-10 ${
         isEven ? "bg-white text-neutral-900" : "bg-neutral-900 text-white"
       }`}
     >
       <div
         className={`flex items-center justify-around ${
-          isEven ? "flex-row" : "flex-row-reverse"
+          isEven ? "xl:flex-row flex-col" : "xl:flex-row-reverse flex-col"
         }`}
       >
         <Image
-          className="w-2/5 object-cover rounded-lg shadow-md"
+          className="xl:w-2/5 xl:rounded-lg w-screen object-cover rounded-0 shadow-md"
           src={image}
           alt={tag}
           width={700}
           height={500}
           loading="lazy"
         />
-        <div className="w-2/5 flex flex-col justify-center">
-          <h2 className="text-3xl font-bold mb-10">{title}</h2>
+        <div className="xl:w-2/5 w-95 flex flex-col justify-center">
+          <h2 className="text-3xl font-bold xl:mb-10 my-10">{title}</h2>
           <div className="space-y-3 pb-10">
             <div className="text-lg">{text}</div>
           </div>

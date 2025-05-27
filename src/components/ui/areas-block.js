@@ -8,10 +8,10 @@ export function AreasService() {
         <div className="font-bold uppercase pb-5">service areas</div>
         <h2 className="title-text-block pb-7">Proudly serving</h2>
       </div>
-      <div className="flex justify-evenly items-start ">
+      <div className="flex flex-col xl:flex-row justify-evenly items-start ">
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-yellow-400 uppercase text-2xl">Washinghton</h2>
-          <div className="cities_content">
+          <div className="cities_content text-center">
             {washingtonAreas.map((area) => (
               <Link
                 href={`/service-zone/washington/${area.slug}`}
@@ -24,7 +24,7 @@ export function AreasService() {
         </div>
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-yellow-400 uppercase text-2xl">Oregon</h2>
-          <div className="cities_content">
+          <div className="cities_content text-center">
             {oregonAreas.map((area) => (
               <Link href={`/service-zone/oregon/${area.slug}`} key={area.slug}>
                 {area.name}

@@ -3,10 +3,10 @@ import { Button } from "./button";
 export function ConclusionSection() {
   return (
     <div className="bg-gray-900/40 flex flex-col py-25 items-center text-white">
-      <h2 className="text-white text-3xl">
+      <h2 className="text-white text-3xl px-5 xl:px-0">
         Call Smart HVAC to learn more about our service
       </h2>
-      <div className="flex justify-evenly bg-white w-200 py-6 my-15 rounded-full">
+      <div className="grid grid-cols-2 gap-5 xl:flex xl:justify-evenly bg-white w-screen xl:w-200 py-6 my-15 xl:rounded-full">
         <div className="flex flex-col items-center text-center">
           <img
             className="w-17"
@@ -40,7 +40,7 @@ export function ConclusionSection() {
           <h4 className="text-black">Quick</h4>
         </div>
       </div>
-      <p className="leading-8 text-center w-2/3 text-lg pb-12">
+      <p className="leading-8 xl:text-center w-screen xl:w-2/3 text-lg px-5 xl:px-0 pb-12">
         If you want more control over your home's temperature, energy usage, and
         air quality, Smart HVAC offers intelligent HVAC solutions designed for
         modern living. Our team specializes in installing, maintaining, and

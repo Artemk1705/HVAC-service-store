@@ -10,10 +10,6 @@ import { NAV_MAIN_PAGES, NAV_SERVICES } from "@/constants/navbar-names";
 import { NavButton } from "@/components/ui/nav-button";
 import { Button } from "@/components/ui/button";
 
-function slugify(text) {
-  return text.toLowerCase().replace(/\s+/g, "-");
-}
-
 function Navbar() {
   const [isMounted, setIsMounted] = useState(false);
   const [isDesktop, setIsDesktop] = useState(true);
@@ -34,17 +30,13 @@ function Navbar() {
 
   if (!isMounted) return null;
 
-  return (
+  return isDesktop ? (
     <nav className="nav">
       <div className="middle_nav_bar">
         <LeftNav />
         <Link href="/">
           <img
-            src={
-              isDesktop
-                ? "/images/navbar-logo.png"
-                : "/images/SmartLogoTablet.png"
-            }
+            src="/images/navbar-logo.png"
             alt="logo"
             className="logo_photo"
           />
@@ -52,54 +44,49 @@ function Navbar() {
         <RightNav />
       </div>
       <div className="nav_bar">
-        {isDesktop ? (
-          <ul className="nav_links_list">
-            {NAV_MAIN_PAGES.map((item) => (
-              <li key={item.label} className="nav_item">
-                <Link href={`/${slugify(item.label)}`} passHref>
-                  <NavButton label={item.label} />
-                </Link>
-                <div className="nav_dropdown">
-                  {item.children.map((child) => (
-                    <Link href={child.href} passHref>
-                      <div key={child.href} className="nav_link_item">
-                        {child.label}
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-              </li>
-            ))}
-            {NAV_SERVICES.map((item) => (
-              <li key={item.label} className="nav_item">
-                <Link href={`/services/${slugify(item.label)}`} passHref>
-                  <NavButton label={item.label} />
-                </Link>
-                <div className="nav_dropdown">
-                  {item.children.map((child) => (
-                    <Link
-                      href={`/services/${slugify(child)}`}
-                      key={child}
-                      passHref
-                    >
-                      <div className="nav_link_item">{child}</div>
-                    </Link>
-                  ))}
-                </div>
-              </li>
-            ))}
-
-            <li className="main_bar">
-              <Link href="/cart">
-                <Button variant="bordersq">CART</Button>
+        <ul className="nav_links_list">
+          {NAV_MAIN_PAGES.map((item) => (
+            <li key={item.label} className="nav_item">
+              <Link href={`/${slugify(item.label)}`} passHref>
+                <NavButton label={item.label} />
               </Link>
+              <div className="nav_dropdown">
+                {item.children.map((child) => (
+                  <Link href={child.href} passHref key={child.href}>
+                    <div className="nav_link_item">{child.label}</div>
+                  </Link>
+                ))}
+              </div>
             </li>
-          </ul>
-        ) : (
-          <Burger />
-        )}
+          ))}
+          {NAV_SERVICES.map((item) => (
+            <li key={item.label} className="nav_item">
+              <Link href={`/services/${slugify(item.label)}`} passHref>
+                <NavButton label={item.label} />
+              </Link>
+              <div className="nav_dropdown">
+                {item.children.map((child) => (
+                  <Link
+                    href={`/services/${slugify(child)}`}
+                    key={child}
+                    passHref
+                  >
+                    <div className="nav_link_item">{child}</div>
+                  </Link>
+                ))}
+              </div>
+            </li>
+          ))}
+          <li className="main_bar">
+            <Link href="/cart">
+              <Button variant="bordersq">CART</Button>
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
+  ) : (
+    <Burger />
   );
 }
 

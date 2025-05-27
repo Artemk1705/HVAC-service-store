@@ -1,30 +1,66 @@
 export const COOLING_CONTENT = {
-  title: "Cooling Services by Smart HVAC",
+  title: "Cooling Services",
   sections: [
     {
-      heading: "Why Air Conditioning is Essential",
-      bullets: [
-        "Temperature Control: AC systems maintain ideal indoor temperatures, protecting occupants from excessive heat and dangerous heat-related illnesses like heat exhaustion and heat stroke.",
-        "Humidity Management: Modern AC units control indoor humidity, preventing the growth of mold, mildew, and bacteria, which can thrive in moist environments.",
-        "Indoor Air Quality Improvement: Air conditioners, when properly maintained, filter out dust, pollen, allergens, smoke particles, and other airborne pollutants, significantly improving the air you breathe.",
-        "Health Benefits: Cleaner, cooler air can reduce respiratory problems, allergies, and improve overall cardiovascular performance. Vulnerable populations — such as children, seniors, and people with asthma — particularly benefit from well-maintained AC systems.",
-        "Increased Comfort and Productivity: Scientific studies show that optimal indoor temperatures enhance focus, work output, sleep quality, and overall mental well-being.",
-        "Energy Efficiency and Savings: Newer high-efficiency AC units and smart thermostats can cut energy consumption by up to 30–50%, directly reducing your monthly utility bills.",
-        "Property Value Boost: Homes and businesses with modern, energy-efficient air conditioning systems are more desirable to buyers and tenants, raising your property's market value.",
-      ],
+      preview: "Efficient Cooling Services for Total Indoor Comfort",
+      previewParagraph:
+        "From AC repair to ductless installation, Smart HVAC delivers complete cooling solutions for homes and businesses across Washington and Oregon.",
+      title: "Comprehensive Cooling Services",
+      text: "Smart HVAC offers a full range of cooling services including AC repair, air conditioning installation, mini split maintenance, and seasonal system tune-ups. Whether your system needs a quick fix or complete replacement, we deliver energy-efficient solutions for every space.",
     },
     {
-      heading: "Our Complete Cooling Services",
-      bullets: [
-        "AC Repair – We diagnose and fix AC issues quickly and effectively — whether it's poor cooling performance, strange noises, refrigerant leaks, compressor failures, or thermostat problems.",
-        "AC Maintenance – Routine maintenance services include full system inspections, coil cleaning, refrigerant pressure checks, condensate drain cleaning, fan motor lubrication, and electrical testing to keep your system running at peak performance.",
-        "AC Installation – We specialize in installing traditional central air systems, high-efficiency split systems, energy-saving heat pumps, and ductless mini-split systems for homes without ductwork.",
-        "Mini Split Systems – Perfect for spot cooling and energy savings. We install, maintain, and repair ductless mini-split air conditioners with zone-specific temperature control.",
-        "Heat Pump Cooling – Installations and service for heat pumps, offering dual benefits — cooling in summer and heating in winter — in a single, highly efficient system.",
-        "Thermostat Upgrades – Smart thermostats that learn your preferences, optimize your cooling schedule, and help lower your energy bills.",
-        "Air Quality Enhancements – Installation of high-performance air filters, UV light air scrubbers, and full air duct cleaning to remove allergens, bacteria, and dust from your indoor environment.",
-        "Emergency Cooling Services – 24/7 emergency air conditioner repairs — because a cooling failure on a 95°F summer day can’t wait.",
-      ],
+      title: "Air Conditioning Repair & Troubleshooting",
+      text: "Is your air conditioner blowing warm air or not working at all? Our licensed technicians are trained to quickly diagnose and repair all AC makes and models. We specialize in compressor issues, refrigerant leaks, thermostat problems, and more. [Link: Air Conditioner Repair]",
+    },
+    {
+      title: "AC Installation for Energy Efficiency",
+      text: "Upgrade to a high-efficiency air conditioner from top brands like Mitsubishi, York, or American Standard. We’ll help you select the best unit for your space, manage the installation, and explain rebate options for energy-efficient upgrades. [Link: Air Conditioner Installation]",
+    },
+    {
+      title: "Routine AC Maintenance & Tune-Ups",
+      text: "Extend the life of your air conditioning system with seasonal maintenance. Our comprehensive plans include filter changes, coil cleanings, refrigerant checks, and diagnostics to catch problems early. [Link: Air Conditioner Maintenance]",
+    },
+    {
+      title: "Cut Cooling Costs With Smart Thermostats",
+      text: "Control your cooling from anywhere using Wi-Fi enabled thermostats. We install and program smart thermostats to automate your comfort, reduce energy waste, and save you money each month. [Link: Smart Thermostat Installation]",
+    },
+    {
+      title: "Local Cooling Experts",
+      text: "Smart HVAC proudly serves Vancouver WA, Camas, Battle Ground, Portland OR, and surrounding areas. Looking for 'cooling contractors near me'? We are the trusted choice for residential and commercial cooling solutions.",
+    },
+    {
+      title: "Emergency Cooling Services",
+      text: "Don’t sweat it! If your system goes down during a heatwave, call our 24/7 emergency team. Our vans are stocked with parts and our response time is fast. [Link: Emergency HVAC Service]",
+    },
+    {
+      title: "Financing & Rebates Available",
+      text: "Get the system you need now and pay over time with convenient financing options. We also help homeowners qualify for state energy rebates and instant dealer discounts.",
+    },
+    {
+      title: "Related Pages",
+      text: `- Air Conditioner Repair [Link]
+- Air Conditioner Maintenance [Link]
+- Air Conditioner Installation [Link]
+- Smart Thermostat Installation [Link]`,
+    },
+    {
+      title: "Why Homeowners Choose Smart HVAC",
+      text: `- Certified & insured cooling technicians
+- 5-star service with transparent pricing
+- Dealer for Mitsubishi, American Standard, York
+- Fast response times and warranty-backed repairs`,
+    },
+    {
+      title: "Air Conditioner Maintenance Plans",
+      text: "Preventative maintenance is the key to a long-lasting and efficient AC system. Our maintenance packages include seasonal check-ups, full system diagnostics, coil cleaning, and filter replacement. These services not only reduce repair costs but also extend the life of your unit. [Link: Air Conditioner Maintenance]",
+    },
+    {
+      title: "Air Conditioner Installation Services",
+      text: "We install top-rated air conditioners from trusted brands like Mitsubishi, York, and American Standard. Our team handles every step, from system sizing to installation and post-setup testing. We’ll ensure your home stays cool efficiently with a custom-configured cooling solution. [Link: Air Conditioner Installation]",
+    },
+    {
+      title: "Fast & Reliable Furnace Repairs",
+      text: "Don’t let heating issues ruin your winter comfort. We repair all furnace models—gas, electric, and high-efficiency units. If you’re noticing strange sounds, poor airflow, or inconsistent heating, our certified techs can diagnose and repair it fast. [Link: Furnace Repair]",
     },
   ],
   conclusion:
@@ -32,325 +68,345 @@ export const COOLING_CONTENT = {
 };
 
 export const HEATING_CONTENT = {
-  title: "Heating Services by Smart HVAC",
+  title: "Heating Services",
   sections: [
     {
-      heading: "Why a Properly Working Heating System Is Critical",
-      bullets: [
-        "Health and Safety: In cold temperatures, a working heating system isn't just about comfort — it's about protecting against hypothermia, respiratory illnesses, and frozen pipes.",
-        "Energy Efficiency: Outdated or malfunctioning heaters waste massive amounts of energy. Modern systems and proper maintenance can cut your heating bills by 30% or more.",
-        "Indoor Comfort: No more cold spots, uneven heating, or noisy operation — a fine-tuned system delivers steady, silent warmth throughout your property.",
-        "Home Protection: Consistent heating prevents moisture build-up and condensation that could damage your structure, walls, flooring, and valuables.",
-        "Property Value: Updated, efficient heating systems make your home more attractive to buyers and help maintain resale value.",
-      ],
+      preview: "Expert Heating Solutions for Reliable Winter Comfort",
+      previewParagraph:
+        "Smart HVAC delivers professional furnace services including repair, maintenance, and installation to keep your home warm, efficient, and safe.",
+      title: "Full-Service Heating Expertise",
+      text: "We provide expert furnace repair, heating maintenance, and new heater installation throughout Washington and Oregon. Whether you're dealing with uneven heat, rising energy bills, or an old system, we offer solutions that restore efficiency and comfort.",
     },
     {
-      heading: "Our Heating Services",
-      bullets: [
-        "Heating Repair: We fix gas furnaces, electric furnaces, heat pumps, and ductless mini splits. Common issues include no heat, frequent cycling, noisy operation, thermostat problems, pilot light issues, airflow restrictions, clogged filters, and electrical failures.",
-        "Heating Maintenance: Includes safety inspections, filter changes, airflow testing, burner cleaning, thermostat calibration, CO checks, and efficiency testing. Recommended every fall.",
-        "Heating Installation: We install high-efficiency furnaces, heat pumps, ductless mini splits, and smart thermostats. All installations include a 5-year workmanship warranty with maintenance plan or 2 years standard.",
-      ],
+      title: "Furnace Repair Services",
+      text: "We repair gas and electric furnaces, including blower motor issues, thermostat malfunctions, clogged filters, and ignition failures. Our licensed technicians handle urgent calls fast and ensure your system is safe and fully operational. [Link: Furnace Repair]",
     },
     {
-      heading: "Why Choose Smart HVAC?",
-      bullets: [
-        "Licensed, Insured, and Experienced Technicians",
-        "Tailored Heating Solutions for Every Home",
-        "Transparent Pricing with No Hidden Fees",
-        "Top-Brand Equipment and Professional Installations",
-        "Priority Scheduling for Annual Plan Members",
-        "Flexible Financing and Rebate Assistance",
-      ],
+      title: "Heating Maintenance Plans",
+      text: "Prevent mid-winter breakdowns with proactive furnace maintenance. We clean burners, inspect heat exchangers, test airflow, and monitor safety controls. Our seasonal service improves reliability and helps detect problems before they escalate. [Link: Furnace Maintenance]",
+    },
+    {
+      title: "Furnace Installation & Upgrades",
+      text: "Upgrade to a high-efficiency furnace from Mitsubishi, York, or American Standard. We handle proper system sizing, ductwork adjustments, and code-compliant installation. Our team ensures you receive rebates and optimal energy savings. [Link: Furnace Installation]",
+    },
+    {
+      title: "Heat Distribution Troubleshooting",
+      text: "If some rooms are colder than others or airflow feels weak, your furnace may need adjustment or repair. We balance systems for even heat delivery and replace worn-out components that reduce performance.",
+    },
+    {
+      title: "Lower Energy Costs with Efficient Heating",
+      text: "Older furnaces often waste energy. Installing a new ENERGY STAR® system or tuning up your existing unit can drastically reduce winter utility bills. Ask us how to qualify for local energy rebates.",
+    },
+    {
+      title: "Local Heating Experts Near You",
+      text: "Serving Vancouver WA, Ridgefield, Camas, Portland OR, and nearby cities. Our heating services include emergency support and flexible scheduling for residential and commercial clients.",
+    },
+    {
+      title: "Emergency Furnace Repair",
+      text: "Don't let a furnace failure leave you cold. Our 24/7 emergency team responds to heating outages, gas leaks, and safety concerns with fast, expert care. [Link: Emergency HVAC Service]",
+    },
+    {
+      title: "Related Pages",
+      text: `- Air Conditioner Repair [Link]
+  - Heat Pump Installation [Link]
+  - Air Filter Replacement [Link]`,
+    },
+    {
+      title: "Why Choose Smart HVAC for Heating",
+      text: `- Certified gas and electric furnace specialists
+  - 5-star rated local contractor
+  - Flexible financing & rebates
+  - Trusted dealer for American Standard, York, Mitsubishi
+  - Guaranteed workmanship with warranty`,
     },
   ],
   conclusion:
-    "Whether you need fast furnace repairs, seasonal maintenance, or a full heating system upgrade, Smart HVAC is your trusted partner for staying warm, safe, and energy-efficient throughout the coldest months.",
+    "Whether you're preparing for the winter season or facing a sudden furnace issue, Smart HVAC is your go-to partner for warm, safe, and energy-efficient comfort all year long.",
 };
 
 export const HEAT_PUMP_CONTENT = {
-  title: "Heat Pump Services by Smart HVAC",
+  title: "Heat Pump Services",
   sections: [
     {
-      heading: "What Is a Heat Pump and How Does It Work?",
-      bullets: [
-        "A heat pump moves heat instead of generating it, extracting warmth from outside air in winter and releasing heat outside in summer.",
-        "Uses electricity and refrigerant to transfer energy — not burn fuel — making it highly efficient in the Pacific Northwest's mild climate.",
-      ],
+      preview:
+        "Year-Round Comfort with Heat Pump Repair, Maintenance, and Installation",
+      previewParagraph:
+        "Smart HVAC provides complete heat pump solutions to keep your home warm in winter and cool in summer—all while lowering your energy bills.",
+      title: "Total Heat Pump Services",
+      text: "Whether you're looking for emergency repairs, proactive maintenance, or full system upgrades, Smart HVAC specializes in heat pump services across Washington and Oregon. We support ducted, ductless, and hybrid systems for efficient heating and cooling.",
     },
     {
-      heading: "Advantages of Heat Pumps",
-      bullets: [
-        "Year-Round Comfort: One system provides both heating and cooling.",
-        "Energy Efficiency: Operates at 300%+ efficiency, using up to 50% less electricity than traditional systems.",
-        "Lower Operating Costs: Can reduce annual utility bills by 25–40%.",
-        "Eco-Friendly: Reduces carbon emissions and fossil fuel use.",
-        "Quiet Operation: Modern systems run quietly indoors and outdoors.",
-        "Long-Term Savings: Fewer moving parts reduce maintenance needs and extend lifespan.",
-      ],
+      title: "Heat Pump Repair",
+      text: "No heat in the winter? Poor cooling in summer? Our certified technicians diagnose and fix heat pump problems fast—including refrigerant leaks, reversing valve issues, compressor failure, and sensor errors. [Link: Heat Pump Repair]",
     },
     {
-      heading: "Heat Pump Services We Offer",
-      bullets: [
-        "Heat Pump Installation: ENERGY STAR® systems from American Standard, Mitsubishi Electric, York, Daikin, Goodman — custom-sized and configured.",
-        "Heat Pump Repair: Full diagnostics and fast repairs for all brands and models.",
-        "Heat Pump Maintenance: Annual tune-ups with refrigerant checks, coil cleaning, thermostat calibration, airflow testing, and electrical safety inspections.",
-      ],
+      title: "Scheduled Heat Pump Maintenance",
+      text: "Protect your investment with seasonal tune-ups. Our service includes coil cleaning, refrigerant checks, fan inspections, thermostat calibration, and system optimization to ensure peak efficiency year-round. [Link: Heat Pump Maintenance]",
     },
     {
-      heading: "Rebates and Tax Credits: Save Big on Heat Pump Upgrades",
-      bullets: [
-        "Federal IRS Tax Credit: Up to $2,000 under the Inflation Reduction Act.",
-        "Local Utility Rebates: Available through Clark Public Utilities, Energy Trust of Oregon, PGE, Pacific Power, BPA, and other city programs.",
-        "Low-Interest Financing Options: Accessible energy-efficient loan programs available.",
-      ],
+      title: "Heat Pump Installation Services",
+      text: "Installing a heat pump? Smart HVAC helps you choose from top-rated models like Mitsubishi, Daikin, or American Standard. We size your system properly, manage permitting, and handle full installation with warranty coverage. [Link: Heat Pump Installation]",
     },
     {
-      heading: "Why Choose Smart HVAC",
-      bullets: [
-        "Licensed and experienced in full-service heat pump systems.",
-        "5-year workmanship warranty with maintenance plan (2 years standard).",
-        "We handle paperwork for all rebates and credits to simplify your upgrade.",
-      ],
+      title: "Energy Efficiency for All Seasons",
+      text: "Unlike traditional HVAC systems, heat pumps provide both heating and cooling. With a high SEER and HSPF rating, you can enjoy lower utility bills and better indoor comfort in every season.",
+    },
+    {
+      title: "Indoor Air Comfort & Humidity Control",
+      text: "A well-functioning heat pump does more than temperature regulation—it also balances indoor humidity. Our systems improve comfort, air quality, and allergen control, especially in the Pacific Northwest climate.",
+    },
+    {
+      title: "Rebate & Incentive Support",
+      text: "Qualify for state and federal heat pump rebates—up to $9,000 depending on income and location. Our team will help with rebate applications and energy efficiency program requirements.",
+    },
+    {
+      title: "Emergency Heat Pump Support",
+      text: "If your system stops during extreme weather, call our 24/7 emergency response line. We provide fast, expert service to restore comfort right away. [Link: Emergency HVAC Service]",
+    },
+    {
+      title: "Related Services",
+      text: `- Mini Split Installation [Link]
+  - Smart Thermostat Installation [Link]
+  - Air Filter Replacement [Link]`,
+    },
+    {
+      title: "Why Homeowners Choose Smart HVAC for Heat Pumps",
+      text: `- Certified heat pump technicians
+  - Same-day diagnostics and service
+  - Financing & rebate support
+  - Dealer for Mitsubishi, American Standard, Daikin
+  - Full warranty on all installations`,
     },
   ],
   conclusion:
-    "If you're ready to upgrade to a cleaner, smarter, and more efficient system, trust Smart HVAC for professional heat pump services backed by experience, integrity, and results. Call us today to schedule a consultation — and start saving on energy and maximizing year-round comfort.",
+    "Smart HVAC is your go-to provider for efficient, reliable, and cost-saving heat pump solutions. Whether you need urgent repair, a system tune-up, or a new installation, we’re here to deliver comfort and performance in every season.",
 };
 
 export const DUCTLESS_CONTENT = {
-  title: "Ductless Heat Pump (Mini Split) Services by Smart HVAC",
+  title: "Ductless HVAC Services",
   sections: [
     {
-      heading: "What Is a Ductless Mini Split System?",
-      bullets: [
-        "A ductless heat pump is a high-efficiency HVAC system that provides both heating and cooling without air ducts.",
-        "Includes one or more wall-mounted indoor units connected to an outdoor compressor.",
-        "Allows for zoned temperature control and exceptional efficiency.",
-      ],
+      preview: "Ductless Mini Split Repair, Maintenance, and Installation",
+      previewParagraph:
+        "Smart HVAC offers full-service solutions for ductless systems, ensuring quiet, energy-efficient comfort in any room of your home or business.",
+      title: "What Is a Ductless Mini Split System?",
+      text: "Mini splits provide zoned heating and cooling without the need for ductwork. Ideal for additions, garages, offices, or older homes, these systems offer room-by-room temperature control and excellent efficiency.",
     },
     {
-      heading: "Benefits of Ductless Systems",
-      bullets: [
-        "No Ductwork Required: Perfect for older homes, garages, or additions.",
-        "Zoned Climate Control: Set different temperatures in different rooms.",
-        "Ultra-High Efficiency: Up to 40–60% savings compared to electric heat or window ACs.",
-        "Whisper-Quiet Operation: Ideal for bedrooms and offices.",
-        "Compact & Flexible Design: Wall, floor, or ceiling-mounted options.",
-        "Dual Function: Heating in winter, cooling in summer.",
-        "Improved Air Quality: Built-in filtration removes allergens and dust.",
-      ],
+      title: "Mini Split Repair Services",
+      text: "Is your ductless system making noise, showing error codes, or failing to cool? We specialize in diagnosing and repairing issues with wall-mounted mini split units. From inverter problems to refrigerant leaks, we restore performance fast. [Link: Mini Split Repair]",
     },
     {
-      heading: "Ideal Applications",
-      bullets: [
-        "Homes without central ductwork",
-        "Bonus rooms, attics, basements, garages",
-        "Additions or remodels",
-        "Rooms with uneven temperatures",
-        "Small businesses, salons, or offices",
-      ],
+      title: "Mini Split Maintenance Plans",
+      text: "Prevent system breakdowns and keep your energy bills low with routine mini split maintenance. We clean filters, check electrical connections, calibrate thermostats, and inspect drain lines. [Link: Mini Split Maintenance]",
     },
     {
-      heading: "Why Choose Smart HVAC for Your Ductless Installation?",
-      bullets: [
-        "Factory-Certified Mitsubishi & Daikin Installers.",
-        "Custom System Design based on your space and usage.",
-        "Clean, Code-Compliant Installation — often same-day.",
-        "Extended Warranty: 5 years with maintenance plan, 2 years standard.",
-        "Smart Controls: Thermostats and Wi-Fi integration available.",
-      ],
+      title: "Mini Split Installation",
+      text: "Looking to add efficient heating and cooling to a specific area? Our team installs Mitsubishi, Daikin, and other top mini split systems. Perfect for room additions, detached buildings, and homes without ducts. [Link: Mini Split Installation]",
     },
     {
-      heading: "Save Big with Rebates and Tax Credits",
-      bullets: [
-        "IRS Tax Credit – Up to $2,000 for high-efficiency systems.",
-        "Clark Public Utilities Rebates: $800–$1,200+.",
-        "Energy Trust of Oregon (ETO): Up to $1,700.",
-        "On-Bill Financing available through local utilities.",
-        "We handle all rebate paperwork for you.",
-      ],
+      title: "Zoned Comfort, Custom Control",
+      text: "Ductless systems allow you to control the climate of each room individually. Set different temperatures in bedrooms, offices, and living spaces for maximum comfort and energy savings.",
     },
     {
-      heading: "Ductless Mini Split SEO Keywords",
-      bullets: [
-        "Ductless heat pump install Vancouver WA",
-        "Mini split installation Portland OR",
-        "Mitsubishi mini split system Camas WA",
-        "Zoned heating and cooling Ridgefield WA",
-        "Wall-mounted heat pump Battle Ground WA",
-        "Ductless rebates Clark Public Utilities",
-        "Smart HVAC contractor Oregon and Washington",
-        "Best mini split system Vancouver WA",
-        "Quiet ductless system Lake Oswego OR",
-      ],
+      title: "Reduce Energy Waste",
+      text: "Ductless systems eliminate energy loss through leaky ducts. With inverter technology and smart thermostats, you’ll lower your carbon footprint and utility bills at the same time.",
+    },
+    {
+      title: "Perfect for Retrofits and Remodels",
+      text: "Mini splits are a smart solution for properties where ductwork is impractical. We help homeowners modernize their comfort without major construction or remodeling.",
+    },
+    {
+      title: "Fast Emergency Service Available",
+      text: "If your ductless system fails during a heatwave or freeze, we’re ready to respond 24/7. Our vans are stocked for same-day repairs. [Link: Emergency HVAC Service]",
+    },
+    {
+      title: "Related Pages",
+      text: `- Heat Pump Installation [Link]
+- Smart Thermostat Installation [Link]
+- Air Conditioner Maintenance [Link]`,
+    },
+    {
+      title: "Why Choose Smart HVAC for Ductless",
+      text: `- Mitsubishi & Daikin certified installers
+- Local family-owned HVAC contractor
+- Financing available
+- Prompt, respectful technicians
+- High-efficiency, low-noise solutions`,
     },
   ],
   conclusion:
-    "Discover how a ductless heat pump can bring precise comfort and serious savings. With professional installation, top-tier equipment, and rebate expertise, Smart HVAC is your trusted local expert for everything mini split. Book your free estimate today!",
+    "For energy-efficient comfort without ductwork, trust Smart HVAC. From new mini split installations to emergency repairs, our experts are ready to help you achieve room-by-room climate control year-round.",
 };
 
 export const AIR_QUALITY_CONTENT = {
-  title: "Indoor Air Quality Services by Smart HVAC",
+  title: "Air Quality Services",
   sections: [
     {
-      heading: "Why Indoor Air Quality (IAQ) Matters",
-      bullets: [
-        "Chronic allergies or asthma flare-ups",
-        "Respiratory irritation",
-        "Headaches or fatigue",
-        "Musty odors",
-        "Visible dust or mold buildup",
-        "Dry or overly humid air",
-      ],
+      preview:
+        "Breathe Cleaner, Healthier Air with Our Indoor Air Quality Solutions",
+      previewParagraph:
+        "Smart HVAC delivers a complete range of indoor air quality services—from advanced filtration and UV sanitization to duct cleaning and smart home climate control.",
+      title: "Improve Your Home's Indoor Air Quality",
+      text: "Indoor air can often be more polluted than outdoor air due to dust, allergens, VOCs, and microbial growth in HVAC systems. At Smart HVAC, we offer comprehensive air quality solutions including filter upgrades, duct sanitation, and advanced purification technologies. Clean air supports better sleep, reduced allergies, and improved overall well-being.",
     },
     {
-      heading: "Our Complete Air Quality Solutions",
-      bullets: [
-        "High-Efficiency Air Filters: Capture fine particles like pollen, smoke, and bacteria using MERV/HEPA-rated filters.",
-        "UV Air Scrubbers: Neutralize viruses, bacteria, and mold spores using UV light installed in ductwork.",
-        "Whole-Home Dehumidifiers & Humidifiers: Maintain optimal humidity to prevent mold, dry skin, and sinus irritation.",
-        "Duct Cleaning Services: Remove dust, allergens, and debris to improve air circulation and cleanliness.",
-        "Smart Thermostats: Monitor and control humidity, filtration cycles, and ventilation schedules for optimal air quality.",
-      ],
+      title: "Air Filter Replacement",
+      text: "We replace standard and specialty filters including HEPA, MERV-13, and electrostatic models. A clean filter improves airflow, protects your HVAC system from dust, and keeps your indoor air healthier. Our team ensures proper fit and frequency for your lifestyle. [Link: Air Filter Replacement]",
     },
     {
-      heading: "Why Choose Smart HVAC for Indoor Air Quality?",
-      bullets: [
-        "Holistic Approach: We offer system-wide IAQ strategies, not just standalone gadgets.",
-        "Certified Technicians: Trained in airflow dynamics, UV tech, and filtration systems.",
-        "Top Brands & Proven Products: We install equipment from Aerus, Honeywell, iWave, and more.",
-        "Customized Recommendations: We evaluate your HVAC system and environment for a personalized plan.",
-        "Priority Maintenance Plans: Includes inspections, reminders, and warranty protection.",
-      ],
+      title: "Smart Thermostat Installation",
+      text: "Upgrade your thermostat to a smart, programmable device for precision control over temperature and humidity. Smart thermostats help regulate indoor climate, reduce mold risks, and improve comfort while saving energy. We install and program models from Ecobee, Nest, and Honeywell. [Link: Smart Thermostat Installation]",
     },
     {
-      heading: "SEO Keywords for Air Quality",
-      bullets: [
-        "Air purification system Vancouver WA",
-        "Whole-home UV air scrubber Portland OR",
-        "HVAC filter upgrade Camas WA",
-        "Air duct cleaning Ridgefield WA",
-        "Home humidifier installation Battle Ground WA",
-        "Smart thermostat air quality control",
-        "iWave purifier installation Oregon/Washington",
-        "Indoor air quality testing Vancouver WA",
-        "Allergy reduction HVAC solution Lake Oswego OR",
-      ],
+      title: "UV Air Scrubber Installation",
+      text: "Installed in your ductwork, UV air scrubbers use light and catalytic oxidation to destroy airborne bacteria, viruses, and odors at the molecular level. Ideal for homes with allergies, pets, or compromised immune systems. Safe, efficient, and maintenance-friendly. [Link: UV Air Scrubber Installation]",
+    },
+    {
+      title: "Professional Air Duct Cleaning",
+      text: "Dust, debris, and allergens build up in ductwork over time, reducing air quality and HVAC efficiency. Our deep-clean duct service removes contaminants using rotary brushes and HEPA vacuums. Clean ducts improve system performance and indoor breathing conditions. [Link: Air Duct Cleaning]",
+    },
+    {
+      title: "Lower Allergens and Contaminants",
+      text: "We help eliminate sources of indoor pollution like pet dander, mold spores, VOCs, and pollen. Combining filtration, ventilation, and purification, Smart HVAC delivers full-spectrum protection against respiratory irritants.",
+    },
+    {
+      title: "Humidity and Ventilation Balance",
+      text: "Maintaining optimal humidity reduces airborne pollutants and discourages mold growth. We offer solutions that improve air exchange and moisture levels for homes that are sealed too tight or prone to moisture issues.",
+    },
+    {
+      title: "Free In-Home Air Quality Assessments",
+      text: "Not sure where to begin? We offer air quality audits to measure particulates, humidity, airflow, and other indicators. Based on the results, we recommend personalized improvements that target the specific issues in your home.",
+    },
+    {
+      title: "Related Services",
+      text: `- HVAC Maintenance [Link]
+- Heat Pump Repair [Link]
+- Emergency HVAC Service [Link]`,
+    },
+    {
+      title: "Why Choose Smart HVAC for Air Quality",
+      text: `- Solutions tailored to homes with pets, kids, and asthma
+- Certified installation of air scrubbers and thermostats
+- Trusted brands and technology
+- Financing and rebates available
+- 5-star service with warranty protection`,
     },
   ],
   conclusion:
-    "✅ If you're struggling with poor indoor air, allergy symptoms, or musty odors, Smart HVAC can help your family breathe easier every day. Schedule your indoor air assessment today!",
+    "Smart HVAC is committed to helping you breathe easier with custom indoor air quality solutions. From filter upgrades to full air purification systems, we create healthier, cleaner environments for families across the Pacific Northwest.",
 };
 
-export const EMERGENCY_SERVICE_CONTENT = {
-  title: "Emergency HVAC Services by Smart HVAC",
+export const EMERGENCY_HVAC_CONTENT = {
+  title: "Emergency HVAC Service (24/7)",
   sections: [
     {
-      heading: "Why Emergency HVAC Service Matters",
-      bullets: [
-        "No heat in winter — risking frozen pipes, illness, and unlivable conditions",
-        "No cooling in summer — especially dangerous for seniors, infants, or people with respiratory conditions",
-        "HVAC system leaking water or refrigerant",
-        "Burning smells or electrical issues — potential fire hazards",
-        "Complete system failure with no power or response",
-        "Mini splits or heat pumps not switching modes properly",
-      ],
+      preview: "Round-the-Clock HVAC Emergency Repairs for Immediate Comfort",
+      previewParagraph:
+        "When your heating or cooling system fails unexpectedly, you need help fast. Smart HVAC is on call 24/7 to handle urgent HVAC problems—even after hours, on weekends, or during holidays. Our fully equipped technicians can respond to no-heat calls in winter or AC breakdowns in the heat of summer. We quickly diagnose the issue, provide an upfront solution, and get your home or business back to a safe and comfortable state. Whether it’s a system failure, refrigerant leak, electrical fault, or frozen unit, we’re ready to restore your peace of mind with fast, professional service you can trust.",
+      title: "Unexpected heating or cooling failure?",
+      text: "Call Smart HVAC anytime, day or night—we’re always ready.",
     },
     {
-      heading: "Benefits of Choosing Smart HVAC in an Emergency",
-      bullets: [
-        "24/7 Emergency Response — We’re available days, nights, weekends, and holidays.",
-        "Rapid Dispatch & Diagnosis — Most repairs completed same day with fully-stocked vans.",
-        "Certified Technicians — Experienced, EPA-certified, state-licensed professionals.",
-        "Fair, Transparent Pricing — Clear estimates before work begins.",
-        "Service for All Major Brands — American Standard, Mitsubishi, York, Daikin, and more.",
-        "Safety First — We inspect for hidden hazards and electrical risks.",
-      ],
+      title: "When You Need Emergency HVAC Services",
+      text: "Whether it’s a broken furnace in freezing weather or a failed AC during a heatwave, Smart HVAC is available 24/7. We provide fast, dependable emergency service to restore your comfort and safety.",
     },
     {
-      heading: "Why Our Emergency Service Is Different",
-      bullets: [
-        "Local Technicians Who Know the Climate — Tailored to Southern WA and Northern OR needs.",
-        "No Membership Required (But It Helps!) — Plan members get priority, discounts, and waived fees.",
-        "Preventive Advice After Repair — Fixing the root cause to prevent recurrence.",
-      ],
+      title: "24/7 Availability Including Nights, Weekends & Holidays",
+      text: "HVAC emergencies don’t follow a schedule, and neither do we. Our on-call technicians respond to urgent calls across Vancouver WA, Portland OR, and surrounding cities—any time of day or night.",
     },
     {
-      heading: "When to Call for Emergency HVAC Help",
-      bullets: [
-        "System isn’t heating or cooling, and indoor temps are unsafe",
-        "Visible water leaking from indoor or outdoor unit",
-        "Electrical panel, breaker, or thermostat is buzzing or sparking",
-        "Burning or chemical odors from vents",
-        "Refrigerant leaks, frozen coils, or blocked airflow",
-        "Smoke alarms or CO detectors triggered near HVAC equipment",
-      ],
+      title: "Common Emergencies We Handle",
+      text: "No heat, no cooling, frozen coils, burning smells, gas furnace failures, short cycling, and electrical issues. We diagnose problems quickly and offer immediate, code-compliant solutions.",
     },
     {
-      heading: "Why Choose Smart HVAC",
-      bullets: [
-        "Fast, reliable, and honest emergency HVAC service",
-        "Day or night availability to restore comfort and safety",
-        "Trusted technicians serving your local area",
-      ],
+      title: "Fast Dispatch & Fully Equipped Vans",
+      text: "Our technicians are dispatched immediately, and our vans are stocked with common parts and diagnostic tools to resolve most problems in a single visit.",
+    },
+    {
+      title: "Safety First",
+      text: "We prioritize safety when handling emergency issues involving gas, carbon monoxide, or electrical failures. Don’t wait—if you feel unsafe, evacuate and call emergency services, then us.",
+    },
+    {
+      title: "Follow-Up and Preventative Maintenance",
+      text: "After an emergency repair, we recommend enrolling in our [Maintenance Plan] to help avoid future breakdowns. Routine maintenance can identify and resolve issues before they become critical.",
+    },
+    {
+      title: "Related Services",
+      text: `- Furnace Repair [Link]
+- AC Repair [Link]
+- Heat Pump Repair [Link]`,
+    },
+    {
+      title: "Local Rapid Response Team",
+      text: "Smart HVAC proudly serves Vancouver WA, Camas, Battle Ground, Beaverton, and the Portland metro. Searching for 'emergency HVAC near me'? You can rely on our rapid response team.",
+    },
+    {
+      title: "Why Smart HVAC?",
+      text: `- Fast response—24 hours a day
+- Trained, certified, and background-checked pros
+- Upfront pricing, even during emergencies
+- Full warranty on parts and labor
+- 5-star rated local company`,
     },
   ],
   conclusion:
-    "When comfort and safety are at risk, Smart HVAC is the team to trust. Our fast, reliable, and honest emergency HVAC service is just a call away — day or night. Don’t wait. Get help now and restore comfort to your home.",
+    "For HVAC emergencies, trust the professionals at Smart HVAC. Our 24/7 service ensures you're never left without heat or cooling—day or night, weekend or holiday. Comfort is just a call away.",
 };
 
 export const ELECTRICIAN_CONTENT = {
-  "electrical-service": {
-    title: "Residential & Light Commercial Electrical Services by Smart HVAC",
-    sections: [
-      {
-        heading: "Why Professional Electrical Work Matters",
-        bullets: [
-          "Fire hazards from overloaded circuits or damaged wires",
-          "Appliance damage due to voltage imbalances or surges",
-          "Code violations that can impact resale or insurance",
-          "Shocks or injury from faulty DIY work",
-          "Reduced system reliability and increased maintenance",
-        ],
-      },
-      {
-        heading: "Full-Service Electrical Work",
-        bullets: [
-          "Electrical Repairs: Breakers, outlets, lighting, emergency systems, and diagnostics",
-          "Electrical Installation: Fans, fixtures, USB ports, smart devices, surge protectors",
-          "Panel Upgrades: Modern 100–200 amp panels that meet code and load demands",
-          "EV Charger Installation: Level 2 chargers with proper 240V circuit setup",
-          "EV Charger Maintenance & Repair: Troubleshooting, updates, and load balancing",
-        ],
-      },
-      {
-        heading: "Why Choose Smart HVAC for Electrical Work",
-        bullets: [
-          "Licensed Electricians: Fully certified and insured professionals",
-          "One Team, Full Coverage: HVAC + electrical from the same trusted provider",
-          "Transparent Estimates & Permitting: No surprises, no skipped steps",
-          "Code-Compliant & Warranty-Backed: All work meets NEC/local code and includes warranty",
-          "Energy Efficiency & Resale Value: Safer homes with increased long-term value",
-        ],
-      },
-      {
-        heading: "Common Projects We Handle",
-        bullets: [
-          "Full home rewiring",
-          "Breaker panel upgrades (100A, 150A, 200A)",
-          "Hot tub, sauna, or pool wiring",
-          "Kitchen and bathroom remodel wiring",
-          "Detached garage subpanels",
-          "Generator transfer switches",
-          "Landscape and security lighting",
-          "Home office and workspace circuits",
-          "Data cabling and structured wiring",
-          "EV charger install and load calculations",
-        ],
-      },
-    ],
-    conclusion:
-      "Whether you’re adding outlets, upgrading your panel, or installing an EV charger — Smart HVAC delivers expert, code-compliant electrical service you can trust.",
-  },
+  title: "Electrical Services",
+  sections: [
+    {
+      preview: "Licensed Electrical Services for Homes and Businesses",
+      previewParagraph:
+        "Smart HVAC provides expert residential and light commercial electrical services—backed by safety, code compliance, and precision workmanship.",
+      title: "Full-Service Electricians You Can Trust",
+      text: "From simple outlet replacements to full panel upgrades and new circuit installations, Smart HVAC’s licensed electricians deliver safe and reliable work across Washington and Oregon. Our team is experienced, insured, and ready to solve any electrical need.",
+    },
+    {
+      title: "Electrical Service & Troubleshooting",
+      text: "Lights flickering? Breakers tripping? We provide fast diagnostics and complete electrical service, including wiring repair, load balancing, grounding, and surge protection for homes and offices. [Link: Electrical Service]",
+    },
+    {
+      title: "Expert Electrical Repair",
+      text: "Whether you have a dead outlet, exposed wires, or a faulty breaker, our electricians perform safe, code-compliant repairs. We prioritize safety and system longevity for every fix—big or small. [Link: Electrical Repair]",
+    },
+    {
+      title: "Electrical Installation for Every Project",
+      text: "Need new lighting, a dedicated HVAC circuit, or a whole home rewire? We install switches, outlets, panels, EV chargers, and backup power systems. All installations meet the latest codes and are warrantied. [Link: Electrical Installation]",
+    },
+    {
+      title: "Home Renovation & Remodeling Support",
+      text: "Adding a room or upgrading your kitchen? We handle electrical rough-in, fixture installation, load calculations, and permit coordination for your renovation project.",
+    },
+    {
+      title: "Panel Upgrades & Circuit Additions",
+      text: "Old or undersized panels can’t keep up with modern energy demands. We upgrade electrical panels, add subpanels, and install dedicated lines for heat pumps, mini splits, and EV chargers.",
+    },
+    {
+      title: "Locally Trusted Electricians",
+      text: "Smart HVAC serves residential and light commercial properties in Vancouver WA, Camas, Ridgefield, and the Portland metro. We’re known for fast service, clean installs, and customer satisfaction.",
+    },
+    {
+      title: "Emergency Electrical Repairs Available",
+      text: "Power outage? Burnt smell? Buzzing breaker box? Call Smart HVAC for 24/7 emergency electrical repairs. We arrive quickly to make your property safe. [Link: Emergency HVAC Service]",
+    },
+    {
+      title: "Related Services",
+      text: `- Heat Pump Installation [Link]
+- HVAC Maintenance [Link]
+- Smart Thermostat Installation [Link]`,
+    },
+    {
+      title: "Why Choose Smart HVAC Electricians",
+      text: `- Licensed, bonded, and insured electricians
+- Clean, organized work with minimal disruption
+- Transparent estimates and clear communication
+- Experience with residential and light commercial
+- Local, family-owned company you can count on`,
+    },
+  ],
+  conclusion:
+    "From panel upgrades to emergency fixes, Smart HVAC's licensed electricians deliver top-tier service with your safety and satisfaction in mind. Trust us for reliable, code-compliant electrical solutions in every room and every project.",
 };

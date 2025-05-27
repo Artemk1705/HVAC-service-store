@@ -276,25 +276,7 @@ code {
   margin-top: -5px;
   width: 100vw;
 }
-.head_p {
-  width: 33vw;
-  font-size: 20px;
-  margin-bottom: 50px;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.632);
-}
-.Head_text {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  text-align: start;
-  margin-left: 0px;
-  margin-top: 50px;
-  cursor: default;
-}
+
 .stars_container {
   display: flex;
   flex-direction: row;
@@ -442,7 +424,7 @@ code {
   z-index: 3;
   width: 40px;
   height: 3px;
-  background-color: rgb(83, 83, 84);
+  background-color: rgb(63, 63, 63);
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -465,7 +447,7 @@ code {
   height: 100vh;
   width: 100vw;
   backdrop-filter: blur(10px);
-  background-color: rgba(95, 95, 97, 0.723);
+  background-color: rgba(81, 81, 82, 0.723);
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -799,13 +781,7 @@ code {
   padding: 25px 0;
   margin: 0 0 100px 0;
 }
-.upper_block,
-.lower_block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+
 .logo_partners {
   width: 10%;
   padding: 20px;
@@ -997,15 +973,6 @@ code {
 @media screen and (max-width: 1700px) {
 }
 @media screen and (max-width: 1600px) {
-  .block_reviews {
-  }
-  .review {
-    width: 22vw;
-    padding: 20px;
-    min-height: 330px;
-    line-height: 23px;
-  }
-
   .main_text {
     max-height: 60%;
     padding: 1.1vw;
@@ -1041,10 +1008,6 @@ code {
   }
 }
 @media screen and (max-width: 1400px) {
-  .block_reviews {
-    background-size: 90vw 300px;
-    background-position: 10vw 50%;
-  }
   .round {
     margin-top: 0%;
     padding: 20px;
@@ -1385,9 +1348,6 @@ code {
     left: 35vw;
     width: 250px;
   }
-  .upper_block {
-    flex-direction: column;
-  }
   .logo_partners {
     width: 17%;
   }
@@ -1474,21 +1434,11 @@ code {
     max-width: 50%;
     margin-left: 26.5vw;
   }
-  .review {
-    min-height: 230px;
-    padding-bottom: 0;
-    align-items: center;
-    padding: 0px 15px;
-  }
+
   .sched {
     flex-direction: column;
   }
-  .review-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 13px;
-  }
+
   .main_block {
     width: 100vw;
     margin-top: 30px;
@@ -1578,29 +1528,6 @@ code {
     right: 0;
     width: 100vw;
   }
-  .block_reviews {
-    height: 500px;
-    background-size: 220vw 67.5vw;
-    background-repeat: no-repeat;
-    background-position: 2.5vw 50%;
-    overflow: hidden;
-    background-image: url(/images/reviws-mob.png);
-    background-size: 100vw 75%;
-  }
-  .review {
-    width: 60vw;
-    flex: 1;
-    padding: 20px;
-    opacity: 1;
-    transition: opacity 1s;
-    display: flex;
-    min-height: 350px;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-size: 1.2em;
-    line-height: 23px;
-    margin-left: 55px;
-  }
 
   .logo_photo {
     top: 7px;
@@ -1618,9 +1545,7 @@ code {
   .card_container {
     margin-bottom: 10vh;
   }
-  .upper_block {
-    flex-direction: column;
-  }
+
   .logo_partners {
     width: 35%;
   }

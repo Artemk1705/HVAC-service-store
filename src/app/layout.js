@@ -19,6 +19,7 @@ import Script from "next/script";
 export const metadata = {
   title: "Smart HVAC",
   description: "Smart HVAC application with Next.js",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({ children }) {
