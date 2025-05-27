@@ -2,12 +2,11 @@ export const AC_REPAIR_CONTENT = {
   title: "Air Conditioner Repair",
   sections: [
     {
-      Preview: "Stay Cool with Professional Air Conditioning Repair Services",
+      preview: "Stay Cool with Professional Air Conditioning Repair Services",
       previewParagraph:
         "When summer temperatures rise, a reliable air conditioning system is essential for comfort and peace of mind. At Smart HVAC, we provide expert air conditioning repair to restore and maintain your system’s performance. Our experienced HVAC technicians diagnose and repair AC issues quickly and efficiently—helping you avoid costly replacements and uncomfortable downtime. From refrigerant leaks and frozen coils to compressor failures, we handle all types of air conditioner issues. And if your system is beyond repair, we offer professional HVAC installation services for lasting home comfort. We also provide dependable heating repair services during the colder months to keep your home cozy year-round.",
       title:
         "Fast, affordable AC repairs to keep your home cool and your energy bills low.",
-      text: "",
     },
     {
       title: "Common AC Problems We Repair",

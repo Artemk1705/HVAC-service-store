@@ -16,3 +16,37 @@ export const previewData = {
     text: "With comfort, efficiency, and Smart Technology, We`re fully commited to elevatin your indoor exprerience",
   },
 };
+
+export const previewServices = {
+  cooling: {},
+  heating: {},
+  electrician: {
+    title: "Licensed Electrical Services for Homes and Businesses",
+    text: `Smart HVAC provides expert residential and light commercial electrical services—backed by safety, code compliance, and precision workmanship.
+       
+      Full-Service Electricians You Can Trust
+      
+      From simple outlet replacements to full panel upgrades and new circuit installations, Smart HVAC’s licensed electricians deliver safe and reliable work across Washington and Oregon. Our team is experienced, insured, and ready to solve any electrical need.`,
+  },
+  "heat-pumps": {},
+  ductless: {},
+  "air-quality": {},
+  "ac-repair": {},
+  "ac-installation": {},
+  "ac-maintenance": {},
+  "furnace-repair": {},
+  "furnace-installtion": {},
+  "furnace-maintenance": {},
+  "heat-pump-repair": {},
+  "heat-pump-installation": {},
+  "heat-pump-maintenance": {},
+  "mini-split-repair": {},
+  "mini-split-installation": {},
+  "mini-split-maintenance": {},
+  "air-filter": {},
+  thermostat: {},
+  "uv-air-scrubber": {},
+  "air-duct-cleaning": {},
+  "electrical-installation": {},
+  "electrical-repair": {},
+};

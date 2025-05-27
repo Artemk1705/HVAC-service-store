@@ -10,6 +10,10 @@ import { NAV_MAIN_PAGES, NAV_SERVICES } from "@/constants/navbar-names";
 import { NavButton } from "@/components/ui/nav-button";
 import { Button } from "@/components/ui/button";
 
+function slugify(text) {
+  return text.toLowerCase().replace(/\s+/g, "-");
+}
+
 function Navbar() {
   const [isMounted, setIsMounted] = useState(false);
   const [isDesktop, setIsDesktop] = useState(true);
