@@ -2,14 +2,6 @@ export const HP_REPAIR_CONTENT = {
   title: "Heat Pump Repair",
   sections: [
     {
-      preview: "Fast, Reliable Heat Pump Repair to Restore Comfort",
-      previewParagraph:
-        "A malfunctioning heat pump can leave your home too cold in winter or too hot in summer. Smart HVAC specializes in prompt, expert heat pump repairs to restore full system function. From refrigerant leaks to electrical issues, our experienced technicians diagnose and fix problems quickly, minimizing disruption and maximizing comfort. We service both ducted and ductless systems, and we stock many parts on hand to make same-day repairs whenever possible.",
-      title:
-        "We diagnose and repair all heat pump issues so you stay comfortable all year long.",
-      text: "",
-    },
-    {
       title: "Common Heat Pump Problems We Fix",
       text: "Not heating? Not cooling? Heat pump stuck in one mode? Our technicians troubleshoot and repair all issues—from reversing valves and defrost cycles to electrical failures, dirty coils, low refrigerant, or faulty thermostats.",
     },
@@ -60,15 +52,6 @@ export const HP_MAINTENANCE_CONTENT = {
   title: "Heat Pump Maintenance",
   sections: [
     {
-      preview:
-        "Keep Your System Running Efficiently with Seasonal Heat Pump Maintenance",
-      previewParagraph:
-        "Routine maintenance is the best way to protect your investment and ensure your heat pump works efficiently year-round. Smart HVAC offers comprehensive maintenance services, including coil cleaning, thermostat calibration, and airflow optimization. Our seasonal tune-ups also include safety checks, refrigerant level monitoring, and fan motor inspections. By maintaining your heat pump regularly, you extend its lifespan, reduce energy waste, and improve year-round comfort.",
-      title:
-        "Prevent breakdowns and reduce energy use with professional heat pump tune-ups.",
-      text: "",
-    },
-    {
       title: "Why Maintain Your Heat Pump?",
       text: "Heat pumps work hard year-round to heat and cool your home. Seasonal maintenance is essential to keep them running efficiently. Smart HVAC ensures your system operates at peak performance through every season, reducing wear and keeping your energy bills low.",
     },
@@ -118,14 +101,6 @@ export const HP_MAINTENANCE_CONTENT = {
 export const HP_INSTALLATION_CONTENT = {
   title: "Heat Pump Installation",
   sections: [
-    {
-      preview: "Upgrade Your Home with Expert Heat Pump Installation",
-      previewParagraph:
-        "Looking for an energy-efficient way to heat and cool your home year-round? At Smart HVAC, we specialize in heat pump installation that maximizes comfort while minimizing energy use and utility costs. Whether you’re replacing an outdated system or installing a heat pump for the first time, our experienced team is here to help. We offer a full range of high-performance heat pumps, including air-source, ductless mini split, and geothermal options to suit your home’s unique needs. Our team provides expert sizing, ductwork modifications, and rebate guidance to ensure you get the most value.",
-      title:
-        "Efficient heating and cooling with year-round comfort from Smart HVAC experts.",
-      text: "",
-    },
     {
       title: "Perfect Solution for Year-Round Comfort",
       text: "Heat pumps are a two-in-one solution for both heating and cooling your home. Smart HVAC helps you choose the right type—air-source, ductless mini split, or geothermal—based on your layout, insulation, and energy needs.",

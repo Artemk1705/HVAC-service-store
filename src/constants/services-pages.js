@@ -4,7 +4,7 @@ import {
   HEAT_PUMP_CONTENT,
   DUCTLESS_CONTENT,
   AIR_QUALITY_CONTENT,
-  EMERGENCY_SERVICE_CONTENT,
+  EMERGENCY_HVAC_CONTENT,
   ELECTRICIAN_CONTENT,
 } from "@/data/services/main-union-services";
 import {
@@ -40,7 +40,7 @@ export const SERVICES_PAGES = {
   "heat-pumps": HEAT_PUMP_CONTENT,
   ductless: DUCTLESS_CONTENT,
   "air-quality": AIR_QUALITY_CONTENT,
-  "emergency-service": EMERGENCY_SERVICE_CONTENT,
+  "emergency-service": EMERGENCY_HVAC_CONTENT,
   electrician: ELECTRICIAN_CONTENT,
   "ac-repair": AC_REPAIR_CONTENT,
   "ac-maintenance": AC_MAINTENANCE_CONTENT,

@@ -2,14 +2,6 @@ export const MINI_SPLIT_REPAIR_CONTENT = {
   title: "Mini Split Repair",
   sections: [
     {
-      preview:
-        "Expert Mini Split Repair for Ductless Heating and Cooling Systems",
-      previewParagraph:
-        "If your mini split isn’t cooling or heating like it used to, Smart HVAC is here to help. Our technicians are trained to diagnose and repair ductless mini split issues—fast. Whether it’s poor airflow, error codes, or temperature inconsistencies, we’ll get your system back on track with precise, professional service. We also check the indoor unit’s sensors, clean filters, and evaluate refrigerant pressure to ensure full performance restoration.",
-      title:
-        "We quickly diagnose and repair ductless mini split systems to restore quiet comfort and energy savings.",
-    },
-    {
       title: "Common Mini Split Issues We Repair",
       text: "Whether your unit won’t power on, displays error codes, has refrigerant leaks, or airflow problems—we can fix it. Our certified HVAC techs service all major ductless brands like Mitsubishi, Daikin, LG, and Fujitsu.",
     },
@@ -60,14 +52,6 @@ export const MINI_SPLIT_MAINTENANCE_CONTENT = {
   title: "Mini Split Maintenance",
   sections: [
     {
-      preview:
-        "Optimize Efficiency with Regular Mini Split Maintenance Services",
-      previewParagraph:
-        "Preventative maintenance keeps your ductless system operating at peak performance. At Smart HVAC, we clean filters, inspect electrical connections, and check refrigerant levels to ensure optimal performance. We also inspect the drain lines, calibrate thermostats, and check for system error codes to prevent sudden breakdowns. Routine maintenance improves energy efficiency, protects your investment, and promotes consistent indoor comfort.",
-      title:
-        "Prevent costly breakdowns and keep your ductless system running like new with professional maintenance.",
-    },
-    {
       title: "Why Ductless Mini Split Maintenance Matters",
       text: "Mini split systems require routine care to function efficiently. Dust, debris, and blocked filters can lead to poor performance and higher energy bills. Smart HVAC keeps your unit clean, calibrated, and reliable year-round.",
     },
@@ -117,14 +101,6 @@ export const MINI_SPLIT_MAINTENANCE_CONTENT = {
 export const MINI_SPLIT_INSTALLATION_CONTENT = {
   title: "Mini Split Installation",
   sections: [
-    {
-      preview:
-        "Upgrade to Ductless Heating & Cooling with Professional Mini Split Installation",
-      previewParagraph:
-        "Looking to enhance your home’s comfort and energy efficiency? Smart HVAC offers expert ductless mini split installation services customized to your home’s unique layout and temperature needs. Whether you want to condition specific rooms or improve comfort throughout your entire home, ductless mini split systems are a flexible and energy-efficient solution. Our licensed HVAC contractors are known for their precision workmanship, honest pricing, and seamless installation process. We also help you select the right system size, number of indoor units, and offer financing or rebate options.",
-      title:
-        "Efficient, quiet, and flexible climate control—installed by experts at Smart HVAC.",
-    },
     {
       title: "Ideal Comfort for Any Space",
       text: "Mini split systems are perfect for home additions, converted garages, ADUs, offices, and older homes without ductwork. Smart HVAC customizes your install based on room size, insulation, and usage patterns.",

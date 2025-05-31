@@ -85,10 +85,10 @@ export function FormContact() {
   };
 
   return (
-    <div className="bg-neutral-900 text-white w-screen py-25">
+    <div className="bg-neutral-900 text-white w-screen xl:py-25 py-10">
       <h2 className="text-center text-2xl uppercase py-5">CONTACT US TODAY</h2>
       <form onSubmit={handleSubmit} className="contact_form">
-        <div className="dis_input_container">
+        <div className="xl:grid justify-items-center w-[90vw] flex flex-col  xl:grid-cols-3 gap-5 xl:px-10 xl:py-12 text-white">
           <Input
             id="firstName"
             name="firstName"
@@ -155,7 +155,7 @@ export function FormContact() {
             value={formData.state}
             onChange={handleChange}
             required
-            className="placeholder-gray-500 w-100 h-10 bg-white my-4 px-4 rounded-lg text-gray-600"
+            className="placeholder-gray-500 xl:w-100 h-10 bg-white my-4 px-4 rounded-lg text-gray-600"
           >
             <option value="">Select State</option>
             <option value="Oregon">Oregon</option>

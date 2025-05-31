@@ -15,7 +15,7 @@ export default function CardRadioGroup({ options, onChange }) {
       {options.map((option) => (
         <label
           key={option.id}
-          className={`flex justify-between items-center p-4 mx-4 border-2 rounded-lg cursor-pointer transition-all h-20 ${
+          className={`flex justify-between items-center p-4 mx-4 border-2 rounded-lg cursor-pointer transition-all h-35 xl:h-20 ${
             selected === option.id
               ? "border-blue-500 bg-blue-50 text-neutral-900"
               : "border-gray-200"

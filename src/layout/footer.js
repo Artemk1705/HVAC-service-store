@@ -24,7 +24,7 @@ function Footer() {
         <RightFootbar />
       </div>
       <div className="w-screen flex-col xl:flex-row justify-evenly items-center text-center px-0 py-5 xl:px-0 xl:py-8.5 text-white uppercase font-medium text-l">
-        <div className="">© 2024 SMART HVAC LLC. All RIGHT RESERVED.</div>
+        <div className="">© 2025 SMART HVAC LLC. All RIGHT RESERVED.</div>
         <div className="flex flex-col xl:flex-row justify-evenly">
           <div className="flex justify-evenly xl:w-80 w-screen underline text-sm py-3 xl:py-0">
             <Link href="">Sitemap</Link>

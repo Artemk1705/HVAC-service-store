@@ -5,6 +5,7 @@ import { SectionList } from "@/components/servicesPagesContent/list-section";
 import { CityHeroSection } from "@/components/areasPageContent/city-hero-section";
 import Link from "next/link";
 import Image from "next/image";
+import { previewServices } from "@/data/preview-section/preview";
 import { PreviewSection } from "@/components/ui/preview";
 import { MainServices } from "@/components/ui/main-services";
 import { ConclusionSection } from "@/components/ui/conclusion-section";
@@ -23,12 +24,18 @@ export default function StatePage({ params }) {
     slug: city.toLowerCase().replace(/\s+/g, "-"),
     image: CITY_IMAGES[city.toLowerCase().replace(/\s+/g, "-")],
   }));
-  const backgroundImage = CITY_IMAGES[params.city] || "/images/serv-back.webp";
+  const backgroundImage = CITY_IMAGES[params.slug] || "/images/serv-back.webp";
 
   return (
     <div className="service-page">
-      <CityHeroSection title={content.title} background={backgroundImage} />
-      <PreviewSection />
+      <CityHeroSection
+        title={content.title}
+        backgroundImage={backgroundImage}
+      />
+      <PreviewSection
+        title={previewServices[params.slug]?.title}
+        text={previewServices[params.slug]?.text}
+      />
       <div className="py-25">
         <h2 className="text-3xl text-center text-neutral-900">
           Service area overview

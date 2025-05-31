@@ -4,7 +4,7 @@ export function AboutPageHero() {
   return (
     <div className="relative w-screen h-[75vh] bg-[url('/images/air-quality.webp')] bg-cover bg-center flex items-center justify-center">
       <div className="flex-col flex items-center">
-        <div className="w-1/2 text-white flex flex-col items-center text-center">
+        <div className="w-screen xl:w-1/2 text-white flex flex-col items-center text-center">
           <div className="text-shadow-lg">
             <h1 className="text-7xl py-10">About Us</h1>
             <p className="leading-8 pb-10">

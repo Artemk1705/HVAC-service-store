@@ -16,4 +16,6 @@ export const CITY_IMAGES = {
   "happy-valley": "/images/wash-pictures-cards/happy-valley-oregon.webp",
   gresham: "/images/wash-pictures-cards/gresham-oregon.webp",
   troutdale: "/images/wash-pictures-cards/troutdale-oregon.webp",
+  washington: "/images/wash-pictures-cards/washington-state.webp",
+  oregon: "/images/wash-pictures-cards/oregon-state.webp",
 };

@@ -2,14 +2,6 @@ export const ELECTRICAL_INSTALLATION_CONTENT = {
   title: "Electrical Installation",
   sections: [
     {
-      preview:
-        "Expert Electrical Installations for Safety, Efficiency, and Growth",
-      previewParagraph:
-        "Whether you're building, remodeling, or upgrading, Smart HVAC delivers expert electrical installation services for homes and businesses. We install everything from new lighting and outlets to full service panels, EV chargers, and dedicated HVAC circuits. Our team follows all local codes, prioritizes safety, and ensures your electrical infrastructure is built to support current and future demand. Trust us to power your project with precision and professionalism.",
-      title:
-        "Upgrade your home or business with professional electrical installation from Smart HVAC.",
-    },
-    {
       title: "Full-Scope Electrical Installations",
       text: "From new construction wiring to EV charger setups and panel upgrades, Smart HVAC provides code-compliant installations for homes and light commercial spaces across the Portland-Vancouver metro.",
     },
@@ -59,13 +51,6 @@ export const ELECTRICAL_INSTALLATION_CONTENT = {
 export const ELECTRICAL_REPAIR_CONTENT = {
   title: "Electrical Repair",
   sections: [
-    {
-      preview: "Reliable Electrical Repairs to Restore Power and Ensure Safety",
-      previewParagraph:
-        "When something goes wrong with your electrical system, prompt attention is critical. Smart HVAC offers fast, accurate electrical repair services for issues ranging from flickering lights and dead outlets to overloaded panels and breaker failures. Our licensed electricians diagnose the problem, explain the cause, and complete the repair to the highest standards. We restore power safely, protect your appliances, and ensure your home or business meets all safety codes.",
-      title:
-        "From faulty breakers to flickering lights, Smart HVAC resolves electrical issues fast and safely.",
-    },
     {
       title: "Common Electrical Problems We Fix",
       text: "We troubleshoot and repair dead outlets, tripping breakers, flickering lights, overloaded panels, faulty GFCIs, buzzing switches, and more. Our goal is always safety, function, and long-term reliability.",

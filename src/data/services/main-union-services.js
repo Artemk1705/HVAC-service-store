@@ -2,13 +2,6 @@ export const COOLING_CONTENT = {
   title: "Cooling Services",
   sections: [
     {
-      preview: "Efficient Cooling Services for Total Indoor Comfort",
-      previewParagraph:
-        "From AC repair to ductless installation, Smart HVAC delivers complete cooling solutions for homes and businesses across Washington and Oregon.",
-      title: "Comprehensive Cooling Services",
-      text: "Smart HVAC offers a full range of cooling services including AC repair, air conditioning installation, mini split maintenance, and seasonal system tune-ups. Whether your system needs a quick fix or complete replacement, we deliver energy-efficient solutions for every space.",
-    },
-    {
       title: "Air Conditioning Repair & Troubleshooting",
       text: "Is your air conditioner blowing warm air or not working at all? Our licensed technicians are trained to quickly diagnose and repair all AC makes and models. We specialize in compressor issues, refrigerant leaks, thermostat problems, and more. [Link: Air Conditioner Repair]",
     },
@@ -71,13 +64,6 @@ export const HEATING_CONTENT = {
   title: "Heating Services",
   sections: [
     {
-      preview: "Expert Heating Solutions for Reliable Winter Comfort",
-      previewParagraph:
-        "Smart HVAC delivers professional furnace services including repair, maintenance, and installation to keep your home warm, efficient, and safe.",
-      title: "Full-Service Heating Expertise",
-      text: "We provide expert furnace repair, heating maintenance, and new heater installation throughout Washington and Oregon. Whether you're dealing with uneven heat, rising energy bills, or an old system, we offer solutions that restore efficiency and comfort.",
-    },
-    {
       title: "Furnace Repair Services",
       text: "We repair gas and electric furnaces, including blower motor issues, thermostat malfunctions, clogged filters, and ignition failures. Our licensed technicians handle urgent calls fast and ensure your system is safe and fully operational. [Link: Furnace Repair]",
     },
@@ -127,14 +113,6 @@ export const HEATING_CONTENT = {
 export const HEAT_PUMP_CONTENT = {
   title: "Heat Pump Services",
   sections: [
-    {
-      preview:
-        "Year-Round Comfort with Heat Pump Repair, Maintenance, and Installation",
-      previewParagraph:
-        "Smart HVAC provides complete heat pump solutions to keep your home warm in winter and cool in summer—all while lowering your energy bills.",
-      title: "Total Heat Pump Services",
-      text: "Whether you're looking for emergency repairs, proactive maintenance, or full system upgrades, Smart HVAC specializes in heat pump services across Washington and Oregon. We support ducted, ductless, and hybrid systems for efficient heating and cooling.",
-    },
     {
       title: "Heat Pump Repair",
       text: "No heat in the winter? Poor cooling in summer? Our certified technicians diagnose and fix heat pump problems fast—including refrigerant leaks, reversing valve issues, compressor failure, and sensor errors. [Link: Heat Pump Repair]",
@@ -186,13 +164,6 @@ export const DUCTLESS_CONTENT = {
   title: "Ductless HVAC Services",
   sections: [
     {
-      preview: "Ductless Mini Split Repair, Maintenance, and Installation",
-      previewParagraph:
-        "Smart HVAC offers full-service solutions for ductless systems, ensuring quiet, energy-efficient comfort in any room of your home or business.",
-      title: "What Is a Ductless Mini Split System?",
-      text: "Mini splits provide zoned heating and cooling without the need for ductwork. Ideal for additions, garages, offices, or older homes, these systems offer room-by-room temperature control and excellent efficiency.",
-    },
-    {
       title: "Mini Split Repair Services",
       text: "Is your ductless system making noise, showing error codes, or failing to cool? We specialize in diagnosing and repairing issues with wall-mounted mini split units. From inverter problems to refrigerant leaks, we restore performance fast. [Link: Mini Split Repair]",
     },
@@ -242,14 +213,6 @@ export const DUCTLESS_CONTENT = {
 export const AIR_QUALITY_CONTENT = {
   title: "Air Quality Services",
   sections: [
-    {
-      preview:
-        "Breathe Cleaner, Healthier Air with Our Indoor Air Quality Solutions",
-      previewParagraph:
-        "Smart HVAC delivers a complete range of indoor air quality services—from advanced filtration and UV sanitization to duct cleaning and smart home climate control.",
-      title: "Improve Your Home's Indoor Air Quality",
-      text: "Indoor air can often be more polluted than outdoor air due to dust, allergens, VOCs, and microbial growth in HVAC systems. At Smart HVAC, we offer comprehensive air quality solutions including filter upgrades, duct sanitation, and advanced purification technologies. Clean air supports better sleep, reduced allergies, and improved overall well-being.",
-    },
     {
       title: "Air Filter Replacement",
       text: "We replace standard and specialty filters including HEPA, MERV-13, and electrostatic models. A clean filter improves airflow, protects your HVAC system from dust, and keeps your indoor air healthier. Our team ensures proper fit and frequency for your lifestyle. [Link: Air Filter Replacement]",
@@ -301,13 +264,6 @@ export const EMERGENCY_HVAC_CONTENT = {
   title: "Emergency HVAC Service (24/7)",
   sections: [
     {
-      preview: "Round-the-Clock HVAC Emergency Repairs for Immediate Comfort",
-      previewParagraph:
-        "When your heating or cooling system fails unexpectedly, you need help fast. Smart HVAC is on call 24/7 to handle urgent HVAC problems—even after hours, on weekends, or during holidays. Our fully equipped technicians can respond to no-heat calls in winter or AC breakdowns in the heat of summer. We quickly diagnose the issue, provide an upfront solution, and get your home or business back to a safe and comfortable state. Whether it’s a system failure, refrigerant leak, electrical fault, or frozen unit, we’re ready to restore your peace of mind with fast, professional service you can trust.",
-      title: "Unexpected heating or cooling failure?",
-      text: "Call Smart HVAC anytime, day or night—we’re always ready.",
-    },
-    {
       title: "When You Need Emergency HVAC Services",
       text: "Whether it’s a broken furnace in freezing weather or a failed AC during a heatwave, Smart HVAC is available 24/7. We provide fast, dependable emergency service to restore your comfort and safety.",
     },
@@ -357,13 +313,6 @@ export const EMERGENCY_HVAC_CONTENT = {
 export const ELECTRICIAN_CONTENT = {
   title: "Electrical Services",
   sections: [
-    {
-      preview: "Licensed Electrical Services for Homes and Businesses",
-      previewParagraph:
-        "Smart HVAC provides expert residential and light commercial electrical services—backed by safety, code compliance, and precision workmanship.",
-      title: "Full-Service Electricians You Can Trust",
-      text: "From simple outlet replacements to full panel upgrades and new circuit installations, Smart HVAC’s licensed electricians deliver safe and reliable work across Washington and Oregon. Our team is experienced, insured, and ready to solve any electrical need.",
-    },
     {
       title: "Electrical Service & Troubleshooting",
       text: "Lights flickering? Breakers tripping? We provide fast diagnostics and complete electrical service, including wiring repair, load balancing, grounding, and surge protection for homes and offices. [Link: Electrical Service]",

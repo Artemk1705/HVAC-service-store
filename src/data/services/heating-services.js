@@ -2,13 +2,6 @@ export const HEATING_REPAIR_CONTENT = {
   title: "Furnace Repair",
   sections: [
     {
-      preview: "Professional Furnace Repair to Restore Comfort and Efficiency",
-      previewParagraph:
-        "A well-functioning furnace is essential to keeping your home warm, safe, and energy-efficient during the colder months. When your system begins to act up—whether it’s making strange noises, cycling inconsistently, or failing to heat evenly—it’s time to call the pros. At Smart HVAC, we specialize in fast, accurate furnace repairs that restore your comfort and prevent small issues from becoming costly breakdowns. Our certified technicians are trained to work with all furnace types, including gas and electric systems, ensuring you receive reliable service every time. We also offer diagnostic assessments and maintenance suggestions to extend your system’s life.",
-      title:
-        "Fast, reliable furnace repair services to keep your home warm, safe, and efficient.",
-    },
-    {
       title: "Common Furnace Issues We Repair",
       text: "Strange noises, inconsistent heat, or frequent cycling? These are signs your furnace needs expert attention. Smart HVAC repairs gas and electric furnaces of all makes and models, quickly identifying problems with igniters, pilot lights, blowers, or control boards.",
     },
@@ -58,14 +51,6 @@ export const HEATING_REPAIR_CONTENT = {
 export const HEATING_MAINTENANCE_CONTENT = {
   title: "Furnace Maintenance",
   sections: [
-    {
-      preview:
-        "Extend the Life of Your Furnace with Professional Heating Maintenance",
-      previewParagraph:
-        "Scheduled furnace maintenance is essential to maintaining efficiency, preventing costly breakdowns, and ensuring safe operation. At Smart HVAC, we perform seasonal heating tune-ups that include burner inspections, airflow testing, and safety checks to keep your furnace running smoothly. Our proactive maintenance services help you detect issues early and avoid emergency repairs. We also test for carbon monoxide leaks and other critical safety hazards to give you complete peace of mind throughout the winter.",
-      title:
-        "Stay warm and worry-free with seasonal tune-ups that improve efficiency and prevent costly breakdowns.",
-    },
     {
       title: "Why Furnace Maintenance Is Crucial",
       text: "Regular maintenance ensures your furnace operates safely, efficiently, and reliably throughout the cold season. At Smart HVAC, we help prevent breakdowns, reduce utility bills, and extend the lifespan of your heating system through comprehensive service.",

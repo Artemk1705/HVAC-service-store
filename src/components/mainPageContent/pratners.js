@@ -4,8 +4,8 @@ export default function PartnersBlock() {
       <h3 className="text-center text-4xl text-neutral-900 py-5">
         Our partners
       </h3>
-      <div className="logos_block">
-        <div className="flex flex-col items-center">
+      <div className="">
+        <div className="flex flex-col xl:flex-row items-center xl:justify-center">
           <img
             src="/images/LogosPartners/YorkLogo.jpg"
             className="logo_partners"
@@ -32,7 +32,7 @@ export default function PartnersBlock() {
             alt="Nate"
           />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center flex-col xl:flex-row xl:justify-center">
           <img
             src="/images/LogosPartners/Americanlogo.png"
             className="logo_partners"

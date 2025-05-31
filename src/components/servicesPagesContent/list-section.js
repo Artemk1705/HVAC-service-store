@@ -1,4 +1,3 @@
-import { highlightKeywords } from "@/constants/robots-words";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -33,11 +32,7 @@ export function SectionList({ sections }) {
               {section.title && (
                 <h2 className="text-3xl font-bold mb-10">{section.title}</h2>
               )}
-              {section.text && (
-                <p className="text-lg pb-10">
-                  {highlightKeywords(section.text)}
-                </p>
-              )}
+              {section.text && <p className="text-lg pb-10">{section.text}</p>}
               <Button variant={buttonVariant}>Learn More</Button>
             </div>
           </div>

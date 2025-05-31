@@ -9,7 +9,7 @@ import { InfoSectionList } from "@/components/ui/info-sections";
 import { aboutSectionData } from "@/data/section-data/about-sections-data";
 import { StatsSection } from "../ui/stats-section";
 import { MainServices } from "@/components/ui/main-services";
-import { AboutConclusionSection } from "./conclusion-section";
+import { ConclusionSection } from "../ui/conclusion-section";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -107,7 +107,7 @@ export function Aboutpage() {
         href={aboutSectionData.secondSection.href}
       />
       <LineChart />
-      <AboutConclusionSection />
+      <ConclusionSection />
     </div>
   );
 }

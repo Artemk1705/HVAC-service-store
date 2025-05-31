@@ -1,18 +1,30 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-1;
+import Image from "next/image";
 
 export function LeftNav() {
   return (
-    <div className="nav_container">
+    <div className="flex flex-col items-center">
       <div>
         <Link href="/subplan">
           <Button variant="border">MAINTENANCE PLAN</Button>
         </Link>
       </div>
-      <div>
+      <div className="flex justify-center items-center w-[260px]">
         <Link href="/equipment">
-          <Button variant="border">PRODUCTS</Button>
+          <Button variant="products">PRODUCTS</Button>
+        </Link>
+        <Link href="/cart">
+          <Button variant="cercle">
+            <Image
+              className=" xl:rounded-lg w-4/7 object-cover rounded-0 shadow-md"
+              src="/images/cart-products-equipment.png"
+              alt="pic"
+              width={500}
+              height={500}
+              loading="lazy"
+            />
+          </Button>
         </Link>
       </div>
       <div>

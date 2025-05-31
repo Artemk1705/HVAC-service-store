@@ -2,14 +2,6 @@ export const AIR_FILTER_CONTENT = {
   title: "Air Filter Replacement",
   sections: [
     {
-      preview:
-        "Keep Your Air Clean and Your System Running Smoothly with Filter Replacement Services",
-      previewParagraph:
-        "Dirty air filters can restrict airflow, reduce efficiency, and degrade the air you breathe. At Smart HVAC, we provide timely air filter replacement services to improve your indoor air quality and protect your HVAC system. Our team helps you select the right type of filter—whether standard, HEPA, or allergen-rated—and ensures it’s installed correctly to optimize airflow and filtration. With regular filter changes, you’ll reduce strain on your equipment, lower monthly energy bills, and help prevent airborne allergens from circulating in your home. This simple but essential service is one of the most effective ways to maintain long-term HVAC health and indoor comfort.",
-      title:
-        "Improve indoor air quality and HVAC efficiency with regular air filter changes from Smart HVAC.",
-    },
-    {
       title: "Why Air Filter Replacement Is Important",
       text: "Clogged or dirty filters reduce airflow, strain your HVAC system, and recirculate dust, allergens, and pollutants throughout your home. Regular replacement helps maintain healthy air and lower energy costs.",
     },
@@ -59,14 +51,6 @@ export const AIR_FILTER_CONTENT = {
 export const THERMOSTAT_CONTENT = {
   title: "Smart Thermostat Installation",
   sections: [
-    {
-      preview:
-        "Maximize Comfort and Efficiency with Smart Thermostat Installation",
-      previewParagraph:
-        "Upgrading to a smart thermostat is a simple yet powerful way to improve energy savings and gain total control over your home’s temperature. Smart HVAC offers expert installation of smart, programmable, and Wi-Fi-enabled thermostats from trusted brands like Ecobee, Nest, and Honeywell. Our technicians help you configure your system for zoning, energy reporting, and remote control through your smartphone or smart home assistant. Whether you’re optimizing for comfort, cost, or automation, we make sure your smart thermostat is perfectly integrated and working flawlessly with your HVAC system—giving you peace of mind and year-round convenience.",
-      title:
-        "Upgrade your climate control with Wi-Fi smart thermostats professionally installed by Smart HVAC.",
-    },
     {
       title: "Control Comfort From Anywhere",
       text: "Smart thermostats let you control temperature, humidity, and fan settings from your smartphone, tablet, or voice assistant. Whether at home or away, manage energy use with easy, intuitive controls.",
@@ -118,13 +102,6 @@ export const UV_AIR_SCRUBBER_CONTENT = {
   title: "UV Air Scrubber Installation",
   sections: [
     {
-      preview: "Protect Your Home with Advanced UV Air Scrubber Technology",
-      previewParagraph:
-        "Smart HVAC installs high-efficiency UV air scrubbers designed to improve indoor air quality by eliminating bacteria, viruses, mold spores, volatile organic compounds (VOCs), and odors from your home’s air supply. These devices work inside your ductwork and use powerful UV-C light technology—completely ozone-free—to neutralize airborne contaminants as they circulate. Our team installs leading systems like the Air Scrubber Advanced by Aerus, trusted for safety and performance. UV air scrubbers are ideal for families with asthma or allergies, pet owners, or anyone seeking a cleaner, safer, and healthier indoor environment.",
-      title:
-        "Eliminate bacteria, viruses, odors, and airborne pollutants with professional UV air purifier installation.",
-    },
-    {
       title: "What is a UV Air Scrubber?",
       text: "A UV air scrubber is an air purification system that uses UV-C light to neutralize airborne contaminants inside your HVAC ductwork. It eliminates viruses, bacteria, mold spores, and odors before they circulate in your home.",
     },
@@ -174,14 +151,6 @@ export const UV_AIR_SCRUBBER_CONTENT = {
 export const AIR_DUCT_CLEANING = {
   title: "Air Duct Cleaning",
   sections: [
-    {
-      preview:
-        "Restore Airflow and Air Quality with Professional Duct Cleaning",
-      previewParagraph:
-        "Over time, dust, debris, allergens, and even mold can build up inside your air ducts, creating airflow restrictions and circulating contaminants throughout your living space. Smart HVAC offers deep-clean duct services using industrial vacuum systems, rotating brushes, and advanced HEPA filtration. Our certified team removes harmful buildup and restores clean, balanced air delivery throughout your home. Regular duct cleaning not only supports better indoor air quality, but also increases HVAC efficiency and system lifespan. We recommend duct cleaning every 3–5 years, or more often if you’ve had renovations, pets, or respiratory sensitivities in the household.",
-      title:
-        "Eliminate dust, debris, and allergens from your ducts to breathe cleaner, fresher air at home.",
-    },
     {
       title: "Why Air Duct Cleaning Matters",
       text: "Dust, pet dander, pollen, mold spores, and construction debris collect inside your ductwork over time. Cleaning improves airflow, supports HVAC efficiency, and enhances indoor air quality.",

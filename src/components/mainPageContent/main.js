@@ -10,6 +10,8 @@ import { MainPageHero } from "./hero-section";
 import { PreviewSection } from "@/components/ui/preview";
 import { AboutSection } from "./about-section";
 import { BenefitsSection } from "./benefits-cetion";
+import { Fincaning } from "../ui/financing";
+import { FormContact } from "@/components/ui/contact-form";
 
 const ReviewBlock = dynamic(
   () => import("../ui/rewies").then((mod) => mod.ReviewBlock),
@@ -17,10 +19,6 @@ const ReviewBlock = dynamic(
 );
 const FormDis = dynamic(() => import("./form-discount"), { ssr: false });
 const PartnersBlock = dynamic(() => import("./pratners"), { ssr: false });
-const Fincaning = dynamic(
-  () => import("@/components/mainPageContent/financing"),
-  { ssr: false }
-);
 
 export function Main() {
   return (
@@ -51,16 +49,8 @@ export function Main() {
           href={mainSectionData.secondSection.href}
         />
         <ReviewBlock />
-        <InfoSectionList
-          sectionIndex={2}
-          title={mainSectionData.thirdSection.title}
-          text={mainSectionData.thirdSection.text}
-          image={mainSectionData.thirdSection.image}
-          tag={mainSectionData.thirdSection.tag}
-          button={mainSectionData.thirdSection.button}
-          href={mainSectionData.thirdSection.href}
-        />
-        <FormDis />
+        <Fincaning />
+        <FormContact />
         <PartnersBlock />
       </div>
     </div>

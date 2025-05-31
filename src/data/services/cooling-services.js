@@ -2,13 +2,6 @@ export const AC_REPAIR_CONTENT = {
   title: "Air Conditioner Repair",
   sections: [
     {
-      preview: "Stay Cool with Professional Air Conditioning Repair Services",
-      previewParagraph:
-        "When summer temperatures rise, a reliable air conditioning system is essential for comfort and peace of mind. At Smart HVAC, we provide expert air conditioning repair to restore and maintain your system’s performance. Our experienced HVAC technicians diagnose and repair AC issues quickly and efficiently—helping you avoid costly replacements and uncomfortable downtime. From refrigerant leaks and frozen coils to compressor failures, we handle all types of air conditioner issues. And if your system is beyond repair, we offer professional HVAC installation services for lasting home comfort. We also provide dependable heating repair services during the colder months to keep your home cozy year-round.",
-      title:
-        "Fast, affordable AC repairs to keep your home cool and your energy bills low.",
-    },
-    {
       title: "Common AC Problems We Repair",
       text: "At Smart HVAC, we’ve seen it all—whether your AC is blowing warm air, making strange noises, cycling constantly, or simply won’t turn on. Our experienced HVAC technicians diagnose issues quickly and provide long-lasting solutions. We service all major brands, including American Standard, Mitsubishi, York, and more.",
     },
@@ -63,14 +56,6 @@ export const AC_MAINTENANCE_CONTENT = {
   title: "Air Conditioner Maintenance",
   sections: [
     {
-      preview:
-        "Prevent Breakdowns with Scheduled Air Conditioner Maintenance Services",
-      previewParagraph:
-        "Routine AC maintenance is the key to efficient cooling, lower energy bills, and extending the life of your system. Smart HVAC offers seasonal air conditioning tune-ups that include full system inspections, coil cleaning, refrigerant checks, and filter replacements to keep your unit performing like new. Our comprehensive maintenance plans are designed to prevent breakdowns before they happen and ensure your home stays cool and comfortable. We also provide performance reports and offer recommendations for upgrades or energy-saving improvements based on your system’s condition.",
-      title:
-        "Routine AC tune-ups for efficiency, longevity, and superior indoor comfort all summer long.",
-    },
-    {
       title: "Why AC Maintenance Matters",
       text: "Seasonal maintenance is essential to keep your air conditioning system performing at its best. It not only improves cooling efficiency but also reduces electricity bills and prevents unexpected failures during the hottest days. Smart HVAC provides thorough inspections, component cleanings, and system optimization to ensure your comfort all summer.",
     },
@@ -120,14 +105,6 @@ export const AC_MAINTENANCE_CONTENT = {
 export const AC_INSTALLATION_CONTENT = {
   title: "Air Conditioner Installation",
   sections: [
-    {
-      preview:
-        "Energy-Efficient Air Conditioning Installation for Reliable Cooling",
-      previewParagraph:
-        "Whether you’re upgrading an old unit or installing a brand-new system, Smart HVAC delivers expert air conditioner installation tailored to your home’s needs. We offer energy-efficient models from leading brands like American Standard, Mitsubishi, and York. Our technicians ensure proper sizing, placement, and configuration for maximum comfort and performance—keeping your home cool for years to come. We handle all permitting, inspections, and removal of old equipment to ensure a seamless experience from start to finish.",
-      title:
-        "Upgrade your cooling system with high-efficiency AC installation from Smart HVAC.",
-    },
     {
       title: "Customized AC Installation for Your Home",
       text: "Every home is different. At Smart HVAC, we assess your home’s layout, square footage, and insulation before recommending the right air conditioning system. Our team ensures your new AC is properly sized and strategically placed to maximize comfort and energy efficiency.",

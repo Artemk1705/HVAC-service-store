@@ -82,8 +82,8 @@ function Navbar() {
             </li>
           ))}
           <li className="main_bar">
-            <Link href="/cart">
-              <Button variant="bordersq">CART</Button>
+            <Link href="/services/emergency-service">
+              <Button variant="bordersq">emergency service</Button>
             </Link>
           </li>
         </ul>

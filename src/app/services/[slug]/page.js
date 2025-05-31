@@ -9,6 +9,8 @@ import { FormContact } from "@/components/ui/contact-form";
 import { AreasService } from "@/components/ui/areas-block";
 import { MainServices } from "@/components/ui/main-services";
 import { ConclusionSection } from "@/components/ui/conclusion-section";
+import { previewServices } from "@/data/preview-section/preview";
+import { PreviewSection } from "@/components/ui/preview";
 
 export default function ServicePage({ params }) {
   const content = SERVICES_PAGES[params.slug];
@@ -23,6 +25,11 @@ export default function ServicePage({ params }) {
   return (
     <>
       <HeroSection title={content.title} backgroundImage={backgroundImage} />
+      <PreviewSection
+        title={previewServices[params.slug]?.title}
+        text={previewServices[params.slug]?.text}
+      />
+
       <MainServices />
       <SectionList sections={section1} />
       <div className="block_reviews py-16 bg-gray-50">

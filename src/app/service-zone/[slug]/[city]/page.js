@@ -9,6 +9,7 @@ import { FormContact } from "@/components/ui/contact-form";
 import { PreviewSection } from "@/components/ui/preview";
 import { MainServices } from "@/components/ui/main-services";
 import { CITY_IMAGES } from "@/constants/service-cards-pictures";
+import { previewServices } from "@/data/preview-section/preview";
 
 export async function generateStaticParams() {
   return Object.keys(CITIES_PAGES).map((city) => {
@@ -44,7 +45,10 @@ export default function CityPage({ params }) {
   return (
     <div className="city-page">
       <CityHeroSection title={title} backgroundImage={backgroundImage} />
-      <PreviewSection />
+      <PreviewSection
+        title={previewServices[params.slug]?.title}
+        text={previewServices[params.slug]?.text}
+      />
       <MainServices />
       <SectionList sections={section1} />
       <ReviewBlock />
