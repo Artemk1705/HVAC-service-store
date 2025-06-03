@@ -35,6 +35,7 @@ export const NAV_MAIN_PAGES = [
     children: [
       { label: "Careers", href: "/careers" },
       { label: "Contact", href: "/contact" },
+      { label: "News", href: "/news" },
     ],
   },
 ];

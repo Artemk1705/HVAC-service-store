@@ -1721,3 +1721,11 @@ code {
   color: #007aff;
   text-align: right;
 }
+
+.link-color a {
+  color: white;
+  padding: 5px 0;
+}
+.link-color a:hover {
+  text-decoration: underline;
+}

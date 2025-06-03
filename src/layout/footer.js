@@ -27,9 +27,9 @@ function Footer() {
         <div className="">© 2025 SMART HVAC LLC. All RIGHT RESERVED.</div>
         <div className="flex flex-col xl:flex-row justify-evenly">
           <div className="flex justify-evenly xl:w-80 w-screen underline text-sm py-3 xl:py-0">
-            <Link href="">Sitemap</Link>
-            <Link href="">Sitemap</Link>
-            <Link href="">Policy</Link>
+            <Link href="/sitemap">Sitemap</Link>
+            <Link href="">Privacy</Link>
+            <Link href="">Terms</Link>
           </div>
           <div>WA ID# SMARTHL78J7 | OR ID# 250660</div>
         </div>

@@ -5,10 +5,11 @@
 
 .glass-button {
   position: relative;
-  padding: 25px 40px;
+  padding: 25px 30px;
   font-size: 15px;
   font-weight: 650;
-  width: 200px;
+  width: 240px;
+  white-space: nowrap;
   color: white;
   text-transform: uppercase;
   background: transparent;
