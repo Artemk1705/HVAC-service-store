@@ -22,6 +22,7 @@ export function AboutSection() {
           installations and routine maintenance to emergency repairs, always
           with a focus on customer comfort and satisfaction.
         </p>
+
         <Link href="/about">
           <Button variant="gradient">learn more</Button>
         </Link>

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export function MainPageHero() {
   return (
-    <div className="relative w-screen h-[75vh] bg-[url('/images/hvac-contractor-ac-repair-heating-installation-ductless-mini-split-furnace-maintenance-heat-pump-emergency-service-air-quality-electrical-vancouver-portland-wa-or.webp')] bg-cover bg-center flex items-center justify-center">
+    <div className="relative w-screen min-h-[800px] h-[75vh] bg-[url('/images/hvac-contractor-ac-repair-heating-installation-ductless-mini-split-furnace-maintenance-heat-pump-emergency-service-air-quality-electrical-vancouver-portland-wa-or.webp')] bg-cover bg-center flex items-center justify-center">
       <div className="title_main_text_container">
         <div className="absolute top-[100px] left-[25px] text-white flex flex-col items-start text-left xl:top-60 ml-0 cursor-default">
           <div>
@@ -24,9 +24,11 @@ export function MainPageHero() {
               <strong> Vancouver, WA</strong> and <strong>Portland, OR</strong>.
             </p>
           </div>
-          <a href="https://book.housecallpro.com/book/Smart-HVAC-LLC/873f1cd3570a4061a22cdf1c843d46ea?v2=true">
-            <Button variant="navblur">GET SCHEDULE</Button>
-          </a>
+          <div className="flex justify-center items-center whitespace-nowrap xl:items-start sm:w-[245px] w-105">
+            <a href="https://book.housecallpro.com/book/Smart-HVAC-LLC/873f1cd3570a4061a22cdf1c843d46ea?v2=true">
+              <Button variant="navblur">GET SCHEDULE</Button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

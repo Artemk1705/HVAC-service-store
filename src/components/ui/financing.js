@@ -28,9 +28,11 @@ export function Fincaning() {
           Whether you're planning a new installation or an emergency repair, ask
           us about our current financing partners and how you can apply today.
         </p>
-        <a href="https://www.mysynchrony.com/mmc/S6228322207">
-          <Button variant="gradient">APPLY ONLINE</Button>
-        </a>
+        <div className="flex justify-center items-center sm:items-start">
+          <a href="https://www.mysynchrony.com/mmc/S6228322207">
+            <Button variant="gradient">APPLY ONLINE</Button>
+          </a>
+        </div>
       </div>
     </div>
   );

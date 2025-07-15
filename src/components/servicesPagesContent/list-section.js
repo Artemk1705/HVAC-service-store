@@ -33,6 +33,7 @@ export function SectionList({ sections }) {
                 <h2 className="text-3xl font-bold mb-10">{section.title}</h2>
               )}
               {section.text && <p className="text-lg pb-10">{section.text}</p>}
+
               <Button variant={buttonVariant}>Learn More</Button>
             </div>
           </div>

@@ -35,7 +35,6 @@ export default async function PostPage({ params }) {
     <MainServices key="main" />,
     <FormContact key="form" />,
     <ReviewBlock key="review" />,
-    <AreasService key="areas" />,
   ];
 
   const contentWithComponents = [];
@@ -93,7 +92,7 @@ export default async function PostPage({ params }) {
   });
 
   return (
-    <div className="w-screen mx-auto py-10">
+    <div className="w-screen mx-auto">
       <h1 className="text-4xl text-neutral-900 font-bold text-center mb-10">
         {post.title}
       </h1>
